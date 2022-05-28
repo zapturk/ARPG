@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateFree(){
 	//Movement
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
@@ -25,9 +23,28 @@ function PlayerStateFree(){
 	//update image index
 	PlayerAnimateSprite();
 	
-	//Change State
+	// Activate key logic
 	if (keyActivate){
-		state = PlayerStateRoll;
-		moveDistanceremaining = distanceRoll;
+		// Check for an entity to activate
+		var activateX = lengthdir_x(10, direction);
+		var activateY = lengthdir_y(10, direction);
+		activate = instance_position(x + activateX, y + activateY, pEntitiy);
+		
+		// if there is nothing, or somthing with no sctipt then roll
+		if(activate == noone || activate.entityActivateScript == -1){
+			state = PlayerStateRoll;
+			moveDistanceremaining = distanceRoll;
+		}
+		else{ // otherwise, there is a somthing and it has a script activate
+			script_execute(ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs));
+			
+			// if the thing we actavet is an NPC make it face towards us
+			if(activate.entityNPC){
+				with(activate){
+					direction = point_direction(x, y, other.x, other.y);
+					image_index = CARDINAL_DIR;
+				}
+			}
+		}	
 	}
 }

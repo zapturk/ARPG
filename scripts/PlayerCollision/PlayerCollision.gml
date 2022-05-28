@@ -27,7 +27,7 @@ function PlayerCollision(){
 	}
 	
 	// Vertical movement
-	y +=  vSpeed;
+	y += vSpeed;
 	
 	
 	return collision;
