@@ -21,6 +21,15 @@ if (responseSelected < minResponse){
 if (keyboard_check_pressed(vk_space)){
 	var messageLenght = string_length(messageText);
 	if(textProgress >= messageLenght){
+		
+		// if there are response then execute the result
+		if(responses [0] != -1){
+			with(originInstance){
+				DialogueResponses(other.responseScript[other.responseSelected]);
+			}
+		}
+		
+		//Destroy text box and load next text box
 		instance_destroy();
 		if(instance_exists(oTextQueued)){
 			with(oTextQueued){

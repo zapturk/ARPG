@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerCollision",
+  "name": "DialogueResponses",
   "tags": [],
   "resourceType": "GMScript",
 }

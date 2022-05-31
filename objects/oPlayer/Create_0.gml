@@ -9,6 +9,10 @@ vSpeed = 0;
 speedWalk = 2.0;
 speedRoll = 3.0;
 distanceRoll = 42;
+distanceBonk = 25;
+distanceBonkHeight = 6;
+speedBonk = 1.5;
+z = 0;
 
 spriteWalk = sHeroWalk;
 spriteIdle = sHeroIdle;
