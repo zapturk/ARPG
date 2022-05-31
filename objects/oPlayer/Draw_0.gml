@@ -1,5 +1,7 @@
+// Draw Shadow under player
 draw_sprite(sShadow, 0, floor(x), floor(y));
 
+// Draw the currnet sprite for the player
 draw_sprite_ext(
 	sprite_index,
 	image_index,

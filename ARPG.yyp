@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_PixelPackTOPDOWN8BIT_Tileset","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"order":0,},
+    {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":6,},
     {"id":{"name":"item8BIT_sword","path":"sprites/item8BIT_sword/item8BIT_sword.yy",},"order":1,},
     {"id":{"name":"item8BIT_bananas","path":"sprites/item8BIT_bananas/item8BIT_bananas.yy",},"order":3,},
     {"id":{"name":"item8BIT_bell","path":"sprites/item8BIT_bell/item8BIT_bell.yy",},"order":5,},
@@ -34,6 +35,7 @@
     {"id":{"name":"item8BIT_scroll","path":"sprites/item8BIT_scroll/item8BIT_scroll.yy",},"order":59,},
     {"id":{"name":"item8BIT_seashell","path":"sprites/item8BIT_seashell/item8BIT_seashell.yy",},"order":61,},
     {"id":{"name":"item8BIT_shield","path":"sprites/item8BIT_shield/item8BIT_shield.yy",},"order":63,},
+    {"id":{"name":"sSword","path":"sprites/sSword/sSword.yy",},"order":0,},
     {"id":{"name":"item8BIT_shovel","path":"sprites/item8BIT_shovel/item8BIT_shovel.yy",},"order":65,},
     {"id":{"name":"item8BIT_skull","path":"sprites/item8BIT_skull/item8BIT_skull.yy",},"order":67,},
     {"id":{"name":"item8BIT_skullkey","path":"sprites/item8BIT_skullkey/item8BIT_skullkey.yy",},"order":69,},
@@ -50,6 +52,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"HEROS_PixelPackTOPDOWN8BIT_Princess_Attack_R","path":"sprites/HEROS_PixelPackTOPDOWN8BIT_Princess_Attack_R/HEROS_PixelPackTOPDOWN8BIT_Princess_Attack_R.yy",},"order":3,},
     {"id":{"name":"HEROS_PixelPackTOPDOWN8BIT_Princess_Attack_U","path":"sprites/HEROS_PixelPackTOPDOWN8BIT_Princess_Attack_U/HEROS_PixelPackTOPDOWN8BIT_Princess_Attack_U.yy",},"order":5,},
+    {"id":{"name":"AttackSlash","path":"scripts/AttackSlash/AttackSlash.yy",},"order":12,},
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},"order":0,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":5,},
     {"id":{"name":"HEROS_PixelPackTOPDOWN8BIT_Princess_Death_D","path":"sprites/HEROS_PixelPackTOPDOWN8BIT_Princess_Death_D/HEROS_PixelPackTOPDOWN8BIT_Princess_Death_D.yy",},"order":7,},
@@ -214,6 +217,7 @@
     {"folderPath":"folders/Objects/Managers.yy","order":1,"resourceVersion":"1.0","name":"Managers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/NPC.yy","order":10,"resourceVersion":"1.0","name":"NPC","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Player.yy","order":11,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Heros/Sword.yy","order":4,"resourceVersion":"1.0","name":"Sword","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

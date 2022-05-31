@@ -4,6 +4,12 @@ function PlayerStateFree(){
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
 	PlayerCollision();
+	
+	// attack key logic
+	if(keyAttack){
+		state = PlayerStateAttack;
+		stateAttack = AttackSlash;
+	}
 
 	// update sprite Index
 	var oldSprite = sprite_index;
