@@ -4,10 +4,16 @@ function AttackSlash(){
 		sprite_index = sHeroAttack;
 		localFrame = 0;
 		image_index = 0;
+		
+		//clear hit by attack list
+		if(!ds_exists(hitByAttack, ds_type_list)){
+			hitByAttack = ds_list_create();
+		}
+		ds_list_clear(hitByAttack);
 	}
 	
 	// do attack calulation
-	// TODO
+	CalcAttack(sHeroAttackHB);
 	
 	// Update sprite
 	PlayerAnimateSprite();
