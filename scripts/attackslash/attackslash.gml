@@ -1,7 +1,7 @@
 function AttackSlash(){
 	// set the attack animation
-	if(sprite_index != sHeroAttack){
-		sprite_index = sHeroAttack;
+	if(sprite_index != spriteAttack){
+		sprite_index = spriteAttack;
 		localFrame = 0;
 		image_index = 0;
 		
@@ -13,7 +13,7 @@ function AttackSlash(){
 	}
 	
 	// do attack calulation
-	CalcAttack(sHeroAttackHB);
+	CalcAttack(spriteAttackHB);
 	
 	// Update sprite
 	PlayerAnimateSprite();

@@ -19,8 +19,15 @@ z = 0;
 spriteWalk = sHeroWalk;
 spriteIdle = sHeroIdle;
 spriteAttack = sHeroAttack;
+spriteAttackHB = sHeroAttackHB;
 spriteHurt = sHeroHurt;
 spriteJumpRoll = sHeroJumpRoll;
 spritePush = sHeroPush;
 
 localFrame = 0;
+
+if(global.targetX != -1){
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+}

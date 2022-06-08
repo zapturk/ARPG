@@ -8,7 +8,7 @@ function PlayerStateBonk(){
 	var collided = PlayerCollision();
 	
 	// update sprite
-	sprite_index = sHeroHurt;
+	sprite_index = spriteHurt;
 	image_index = CARDINAL_DIR + 2;
 	
 	// cange height

@@ -25,6 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"9eb1e05a-043a-467b-beb4-04d05bccd27f","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9eb1e05a-043a-467b-beb4-04d05bccd27f","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"LayerId":{"name":"853269bf-bbbd-4b55-8434-718323661f73","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"9eb1e05a-043a-467b-beb4-04d05bccd27f","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"LayerId":{"name":"3660e253-1555-413b-84f4-e0d405b75837","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_PixelPackTOPDOWN8BIT_Tileset","path":"sprites/spr_PixelPackTOPDOWN8BIT_Tileset/spr_PixelPackTOPDOWN8BIT_Tileset.yy",},"resourceVersion":"1.0","name":"9eb1e05a-043a-467b-beb4-04d05bccd27f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"853269bf-bbbd-4b55-8434-718323661f73","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3660e253-1555-413b-84f4-e0d405b75837","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,

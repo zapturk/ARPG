@@ -22,5 +22,5 @@ function CalcAttack(hitBox){
 	}
 	
 	ds_list_destroy(hitByAttackNow);
-	mask_index = sHeroIdle;
+	mask_index = spriteIdle;
 }
