@@ -1,7 +1,16 @@
 function PlayerStateFree(){
+	// Check for stairs
+	if(position_meeting(x, y, oStairs)){
+		speedWalk = 1.0;
+	}
+	else{
+		speedWalk = 2.0;
+	}
+	
 	//Movement
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+	
 
 	PlayerCollision();
 	

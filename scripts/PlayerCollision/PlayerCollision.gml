@@ -1,14 +1,21 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerCollision(){
 	var collision = false;
 	var entityList = ds_list_create()
 	
 	// Horizontal Tiles
-	if(tilemap_get_at_pixel(collisionMap, x + hSpeed, y)){
-		x -= x mod TILE_SIZE;
-		if(sign(hSpeed) == 1){
-			x += TILE_SIZE - 1;
+	// Check Right
+	if(tilemap_get_at_pixel(collisionMap, bbox_right + hSpeed, bbox_bottom)){
+		while(!tilemap_get_at_pixel(collisionMap, bbox_right + hSpeed, bbox_bottom)){
+			x += sign(oPlayer.hSpeed);
+		}
+		hSpeed = 0;
+		collision = true;
+	}
+	
+	// Check Left
+	if(tilemap_get_at_pixel(collisionMap, bbox_left + hSpeed, bbox_bottom)){
+		while(!tilemap_get_at_pixel(collisionMap, bbox_left + hSpeed, bbox_bottom)){
+			oPlayer.x += sign(hSpeed);
 		}
 		hSpeed = 0;
 		collision = true;
@@ -23,7 +30,7 @@ function PlayerCollision(){
 		if(entityCheck.entityCollision == true){
 			// move as close as we can
 			if(sign(hSpeed) == -1){
-				snapX = entityCheck.bbox_right+1;
+				snapX = entityCheck.bbox_right + 1;
 			}
 			else{
 				snapX = entityCheck.bbox_left - 1;
@@ -46,10 +53,19 @@ function PlayerCollision(){
 	ds_list_clear(entityList);
 	
 	// Vertical Tiles
-	if(tilemap_get_at_pixel(collisionMap, x, y + vSpeed)){
-		y -= y mod TILE_SIZE;
-		if(sign(vSpeed) == 1){
-			y += TILE_SIZE - 1;
+	// Check Left
+	if(tilemap_get_at_pixel(collisionMap, bbox_left, bbox_top + vSpeed)){
+		while(!tilemap_get_at_pixel(collisionMap, bbox_left, bbox_top + vSpeed)){
+			y += sign(vSpeed);
+		}
+		vSpeed = 0;
+		collision = true;
+	}
+	
+	// Check Right
+	if(tilemap_get_at_pixel(collisionMap, bbox_right, bbox_bottom + vSpeed)){
+		while(!tilemap_get_at_pixel(collisionMap, bbox_right, bbox_bottom + vSpeed)){
+			y += sign(vSpeed);
 		}
 		vSpeed = 0;
 		collision = true;
@@ -64,7 +80,7 @@ function PlayerCollision(){
 		if(entityCheck.entityCollision == true){
 			// move as close as we can
 			if(sign(vSpeed) == -1){
-				snapY = entityCheck.bbox_bottom+1;
+				snapY = entityCheck.bbox_bottom + 1;
 			}
 			else{
 				snapY = entityCheck.bbox_top - 1;

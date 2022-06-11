@@ -13,3 +13,5 @@ draw_sprite_ext(
 	image_blend,
 	image_alpha
 )
+
+//draw_sprite(sHeroCM, 0, floor(x), floor(y - z));
