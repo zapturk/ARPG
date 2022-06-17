@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sHeroIdle",
-    "path": "sprites/sHeroIdle/sHeroIdle.yy",
+    "name": "sPlayerIdle",
+    "path": "sprites/sPlayerIdle/sPlayerIdle.yy",
   },
   "solid": false,
   "visible": true,

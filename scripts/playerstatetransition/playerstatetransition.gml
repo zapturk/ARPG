@@ -1,6 +1,6 @@
 function PlayerStateTransition(){
 	// Movement
-	PlayerCollision();
+	//PlayerCollision();
 	
 	// Update Image Index
 	PlayerAnimateSprite();

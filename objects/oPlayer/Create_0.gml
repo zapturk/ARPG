@@ -16,13 +16,15 @@ distanceBonkHeight = 6;
 speedBonk = 1.5;
 z = 0;
 
-spriteWalk = sHeroWalk;
-spriteIdle = sHeroIdle;
-spriteAttack = sHeroAttack;
-spriteAttackHB = sHeroAttackHB;
-spriteHurt = sHeroHurt;
-spriteJumpRoll = sHeroJumpRoll;
-spritePush = sHeroPush;
+animationEndScript = -1;
+
+spriteWalk = sPlayerWalk;
+spriteIdle = sPlayerIdle;
+spriteAttack = sPlayerAttack;
+spriteAttackHB = sPlayerAttackHB;
+spriteHurt = sPlayerHurt;
+spriteJumpRoll = sPlayerRoll;
+spritePush = sPlayerPush;
 
 localFrame = 0;
 

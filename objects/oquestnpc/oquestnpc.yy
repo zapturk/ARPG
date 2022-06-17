@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sDogIdle",
-    "path": "sprites/sDogIdle/sDogIdle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
