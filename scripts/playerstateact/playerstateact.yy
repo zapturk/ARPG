@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "Player States",
+    "path": "folders/Scripts/Player States.yy",
   },
   "resourceVersion": "1.0",
   "name": "PlayerStateAct",

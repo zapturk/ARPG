@@ -47,8 +47,14 @@ function PlayerStateFree(){
 		
 		// if there is nothing, or somthing with no sctipt then roll
 		if(activate == noone || activate.entityActivateScript == -1){
-			state = PlayerStateRoll;
-			moveDistanceremaining = distanceRoll;
+			//throw something if held otherwise roll
+			if(global.iLifted != noone){
+				PlayerThrow();
+			}
+			else{
+				state = PlayerStateRoll;
+				moveDistanceremaining = distanceRoll;
+			}
 		}
 		else{ // otherwise, there is a somthing and it has a script activate
 			script_execute(ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs));

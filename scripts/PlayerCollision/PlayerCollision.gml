@@ -45,11 +45,15 @@ function PlayerCollision(){
 		collision = true;
 	}
 	else if(position_meeting(bbox_right + hSpeed, bbox_top, pEntitiy)){
-		while(!position_meeting(bbox_right + hSpeed, bbox_top, pEntitiy)){
-			x += sign(oPlayer.hSpeed);
+		var inst = instance_position(bbox_right + hSpeed, bbox_top, pEntitiy);
+		
+		if(inst != global.iLifted){
+			while(!position_meeting(bbox_right + hSpeed, bbox_top, pEntitiy)){
+				x += sign(oPlayer.hSpeed);
+			}
+			hSpeed = 0;
+			collision = true;
 		}
-		hSpeed = 0;
-		collision = true;
 	}
 	
 	// check left
@@ -61,11 +65,15 @@ function PlayerCollision(){
 		collision = true;
 	}
 	else if(position_meeting(bbox_left + hSpeed, bbox_top, pEntitiy)){
-		while(!position_meeting(bbox_left + hSpeed, bbox_top, pEntitiy)){
-			x += sign(oPlayer.hSpeed);
+		var inst = instance_position(bbox_left + hSpeed, bbox_top, pEntitiy);
+		
+		if(inst != global.iLifted){
+			while(!position_meeting(bbox_left + hSpeed, bbox_top, pEntitiy)){
+				x += sign(oPlayer.hSpeed);
+			}
+			hSpeed = 0;
+			collision = true;
 		}
-		hSpeed = 0;
-		collision = true;
 	}
 	
 	// Horizontal movement
@@ -110,34 +118,50 @@ function PlayerCollision(){
 	//vartical Entities
 	// Check up
 	if(position_meeting(bbox_left, bbox_top + vSpeed, pEntitiy)){
-		while(!position_meeting(bbox_left, bbox_top + vSpeed, pEntitiy)){
-			y += sign(vSpeed);
+		var inst = instance_position(bbox_left, bbox_top + vSpeed, pEntitiy);
+		
+		if(inst != global.iLifted){
+			while(!position_meeting(bbox_left, bbox_top + vSpeed, pEntitiy)){
+				y += sign(vSpeed);
+			}
+			vSpeed = 0;
+			collision = true;
 		}
-		vSpeed = 0;
-		collision = true;
 	}
 	else if(position_meeting(bbox_right, bbox_top + vSpeed, pEntitiy)){
-		while(!position_meeting(bbox_right, bbox_top + vSpeed, pEntitiy)){
-			y += sign(vSpeed);
+		var inst = instance_position(bbox_right, bbox_top + vSpeed, pEntitiy);
+		
+		if(inst != global.iLifted){
+			while(!position_meeting(bbox_right, bbox_top + vSpeed, pEntitiy)){
+				y += sign(vSpeed);
+			}
+			vSpeed = 0;
+			collision = true;
 		}
-		vSpeed = 0;
-		collision = true;
 	}
 	
-	// Check Right
+	// Check down
 	if(position_meeting(bbox_right, bbox_bottom + vSpeed, pEntitiy)){
-		while(!position_meeting(bbox_right, bbox_bottom + vSpeed, pEntitiy)){
-			y += sign(vSpeed);
+		var inst = instance_position(bbox_right, bbox_bottom + vSpeed, pEntitiy);
+		
+		if(inst != global.iLifted){
+			while(!position_meeting(bbox_right, bbox_bottom + vSpeed, pEntitiy)){
+				y += sign(vSpeed);
+			}
+			vSpeed = 0;
+			collision = true;
 		}
-		vSpeed = 0;
-		collision = true;
 	}
 	else if(position_meeting(bbox_left, bbox_bottom + vSpeed, pEntitiy)){
-		while(!position_meeting(bbox_left, bbox_bottom + vSpeed, pEntitiy)){
-			y += sign(vSpeed);
+		var inst = instance_position(bbox_left, bbox_bottom + vSpeed, pEntitiy);
+		
+		if(inst != global.iLifted){
+			while(!position_meeting(bbox_left, bbox_bottom + vSpeed, pEntitiy)){
+				y += sign(vSpeed);
+			}
+			vSpeed = 0;
+			collision = true;
 		}
-		vSpeed = 0;
-		collision = true;
 	}
 	
 	// Vertical movement

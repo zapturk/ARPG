@@ -6,6 +6,7 @@ function ActivateLiftable(objId){
 		with(global.iLifted){
 			lifted = true;
 			persistent = true;
+			entityShadow = false;
 		}
 	}
 }
