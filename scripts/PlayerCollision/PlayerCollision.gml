@@ -38,16 +38,20 @@ function PlayerCollision(){
 	// horizontal Entities
 	// check right
 	if(position_meeting(bbox_right + hSpeed, bbox_bottom, pEntitiy)){
-		while(!position_meeting(bbox_right + hSpeed, bbox_bottom, pEntitiy)){
-			x += sign(oPlayer.hSpeed);
+		var inst = instance_position(bbox_right + hSpeed, bbox_bottom, pEntitiy);
+		
+		if(inst.entityCollision){
+			while(!position_meeting(bbox_right + hSpeed, bbox_bottom, pEntitiy)){
+				x += sign(oPlayer.hSpeed);
+			}
+			hSpeed = 0;
+			collision = true;
 		}
-		hSpeed = 0;
-		collision = true;
 	}
 	else if(position_meeting(bbox_right + hSpeed, bbox_top, pEntitiy)){
 		var inst = instance_position(bbox_right + hSpeed, bbox_top, pEntitiy);
 		
-		if(inst != global.iLifted){
+		if(inst.entityCollision){
 			while(!position_meeting(bbox_right + hSpeed, bbox_top, pEntitiy)){
 				x += sign(oPlayer.hSpeed);
 			}
@@ -58,16 +62,20 @@ function PlayerCollision(){
 	
 	// check left
 	if(position_meeting(bbox_left + hSpeed, bbox_bottom, pEntitiy)){
-		while(!position_meeting(bbox_left + hSpeed, bbox_bottom, pEntitiy)){
-			x += sign(oPlayer.hSpeed);
+		var inst = instance_position(bbox_left + hSpeed, bbox_bottom, pEntitiy);
+		
+		if(inst.entityCollision){
+			while(!position_meeting(bbox_left + hSpeed, bbox_bottom, pEntitiy)){
+				x += sign(oPlayer.hSpeed);
+			}
+			hSpeed = 0;
+			collision = true;
 		}
-		hSpeed = 0;
-		collision = true;
 	}
 	else if(position_meeting(bbox_left + hSpeed, bbox_top, pEntitiy)){
 		var inst = instance_position(bbox_left + hSpeed, bbox_top, pEntitiy);
 		
-		if(inst != global.iLifted){
+		if(inst.entityCollision){
 			while(!position_meeting(bbox_left + hSpeed, bbox_top, pEntitiy)){
 				x += sign(oPlayer.hSpeed);
 			}
@@ -120,7 +128,7 @@ function PlayerCollision(){
 	if(position_meeting(bbox_left, bbox_top + vSpeed, pEntitiy)){
 		var inst = instance_position(bbox_left, bbox_top + vSpeed, pEntitiy);
 		
-		if(inst != global.iLifted){
+		if(inst.entityCollision){
 			while(!position_meeting(bbox_left, bbox_top + vSpeed, pEntitiy)){
 				y += sign(vSpeed);
 			}
@@ -131,7 +139,7 @@ function PlayerCollision(){
 	else if(position_meeting(bbox_right, bbox_top + vSpeed, pEntitiy)){
 		var inst = instance_position(bbox_right, bbox_top + vSpeed, pEntitiy);
 		
-		if(inst != global.iLifted){
+		if(inst.entityCollision){
 			while(!position_meeting(bbox_right, bbox_top + vSpeed, pEntitiy)){
 				y += sign(vSpeed);
 			}
@@ -144,7 +152,7 @@ function PlayerCollision(){
 	if(position_meeting(bbox_right, bbox_bottom + vSpeed, pEntitiy)){
 		var inst = instance_position(bbox_right, bbox_bottom + vSpeed, pEntitiy);
 		
-		if(inst != global.iLifted){
+		if(inst.entityCollision){
 			while(!position_meeting(bbox_right, bbox_bottom + vSpeed, pEntitiy)){
 				y += sign(vSpeed);
 			}
@@ -155,7 +163,7 @@ function PlayerCollision(){
 	else if(position_meeting(bbox_left, bbox_bottom + vSpeed, pEntitiy)){
 		var inst = instance_position(bbox_left, bbox_bottom + vSpeed, pEntitiy);
 		
-		if(inst != global.iLifted){
+		if(inst.entityCollision){
 			while(!position_meeting(bbox_left, bbox_bottom + vSpeed, pEntitiy)){
 				y += sign(vSpeed);
 			}

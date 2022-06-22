@@ -1,3 +1,8 @@
 function PlayerStateAttack(){
-	script_execute(stateAttack)
+	if(global.hasSword){
+		script_execute(stateAttack)
+	}
+	else{
+		state = PlayerStateFree;
+	}
 }

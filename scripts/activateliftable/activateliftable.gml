@@ -7,6 +7,8 @@ function ActivateLiftable(objId){
 			lifted = true;
 			persistent = true;
 			entityShadow = false;
+			entityCollision = false;
+			depth = -100;
 		}
 	}
 }

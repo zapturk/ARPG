@@ -25,6 +25,7 @@ spriteAttackHB = sPlayerAttackHB;
 spriteHurt = sPlayerHurt;
 spriteJumpRoll = sPlayerRoll;
 spritePush = sPlayerPush;
+spriteFall = sPlayerFall;
 
 localFrame = 0;
 
@@ -33,3 +34,5 @@ if(global.targetX != -1){
 	y = global.targetY;
 	direction = global.targetDirection;
 }
+
+depth = -1000;

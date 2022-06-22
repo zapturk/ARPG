@@ -2,7 +2,7 @@ function CalcAttack(hitBox){
 	// use attack hitbox and check for hit
 	mask_index = hitBox;
 	var hitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x, y, pEntitiy, hitByAttackNow,  false);
+	var hits = instance_place_list(x, y, pEntitiy, hitByAttackNow, false);
 	
 	if(hits > 0){
 		for(var i = 0; i < hits; i++){

@@ -16,7 +16,7 @@ else{ // leading == IN
 	if(percent <= 0){
 		with(oPlayer){
 			state = PlayerStateFree;
-		}
+		} 
 		instance_destroy();
 	}
 }

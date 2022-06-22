@@ -11,3 +11,13 @@
 #macro IN 1
 
 #macro LIFT_OBJ_Z 13
+
+enum ENEMYSTATE{
+	IDLE,
+	WONDER,
+	CHASE,
+	ATTACK,
+	HURT,
+	DIE,
+	WAIT
+}

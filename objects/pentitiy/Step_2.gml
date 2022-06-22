@@ -1,6 +1,6 @@
 /// @desc Entity loop
 if(!global.gamePaused){
-	depth = -bbox_bottom;
+	depth = 0;
 	
 	if(lifted && instance_exists(oPlayer)){
 		if(oPlayer.sprite_index != sPlayerLift){
