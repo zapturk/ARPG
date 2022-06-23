@@ -41,7 +41,7 @@
     "spriteId": {"name":"sEnemieKill","path":"sprites/sEnemieKill/sEnemieKill.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 6.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

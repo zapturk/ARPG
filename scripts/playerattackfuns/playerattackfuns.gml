@@ -62,14 +62,15 @@ function HurtEnemy(enemey, damage, source, knockBack){
 	with(enemey){
 		if(state != ENEMYSTATE.DIE){
 			enemyHP -= damage;
-			flash = 1;
 			
 			// hurt or dead
 			if(enemyHP <= 0){
+				image_index = 0;
 				state = ENEMYSTATE.DIE;
 			}
 			else{ 
 				if(state != ENEMYSTATE.HURT){
+					flash = 1;
 					statePrevious = state;
 				}
 				state = ENEMYSTATE.HURT;

@@ -127,3 +127,41 @@ function SlimeWonder(){
 	
 	
 }
+	
+function SlimeHurt(){
+	sprite_index = sprHurt;
+	var disToGo = point_distance(x, y, xTo, yTo);
+	if(disToGo > enemySpeed){
+		image_speed = 1;
+		dir = point_direction(x, y, xTo, yTo);
+		hSpeed = lengthdir_x(enemySpeed, dir);
+		vSpeed = lengthdir_y(enemySpeed, dir);
+		
+		//Collide and move
+		if(EnemyTileCollision()){
+			xTo = x;
+			yTo = y;
+		}
+		else{
+			x = xTo;
+			y = yTo;
+			if(statePrevious != ENEMYSTATE.ATTACK){
+				state = statePrevious;
+			}
+			else {
+				state = ENEMYSTATE.CHASE;
+			}
+		}
+	}
+}
+
+function SlimeDie(){
+	sprite_index = sprDie;
+	image_speed = 1;
+	//var disToGo = point_distance(x, y, xTo, yTo);
+	
+	if(image_index + sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps) >= image_number){
+		instance_destroy();
+	}
+	
+}
