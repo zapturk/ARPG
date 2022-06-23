@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Player Attack",
+    "path": "folders/Scripts/Player Attack.yy",
   },
   "resourceVersion": "1.0",
-  "name": "AttackSlash",
+  "name": "PlayerAttackFuns",
   "tags": [],
   "resourceType": "GMScript",
 }

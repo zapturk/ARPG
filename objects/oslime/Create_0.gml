@@ -7,6 +7,14 @@ event_inherited();
 // Default state
 state = ENEMYSTATE.WONDER;
 
+sprSpawn = sGreenSlimeIdle;
 sprMove = sGreenSlimeIdle;
+sprAttack = sGreenSlimeAttack;
+sprHurt = sGreenSlimeHurt;
+sprDie = sEnemieKill;
 
 enemyScript[ENEMYSTATE.WONDER] = SlimeWonder;
+enemyScript[ENEMYSTATE.CHASE] = SlimeChase;
+enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack;
+enemyScript[ENEMYSTATE.HURT] = SlimeHurt;
+enemyScript[ENEMYSTATE.DIE] = SlimeDie;
