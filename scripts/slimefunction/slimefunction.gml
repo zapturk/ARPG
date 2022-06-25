@@ -81,15 +81,11 @@ function SlimeChase(){
 
 function SlimeWonder(){
 	image_speed = 1;
+	sprite_index = sprMove;
 	// At Destination or given up?
 	if(((x == xTo) && (y == yTo)) || (timePassed > enemyWonderDistance / enemySpeed)){
 		hSpeed = 0;
 		vSpeed = 0;
-		// end move
-		//if(image_index < 1){
-		//	image_speed = 0;
-		//	image_index = 0;
-		//}
 		
 		// new target destinaiton
 		if(++wait >= waitDuration){
@@ -160,7 +156,7 @@ function SlimeDie(){
 	image_speed = 1;
 	//var disToGo = point_distance(x, y, xTo, yTo);
 	
-	if(image_index + sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps) >= image_number){
+	if(image_index + (sprite_get_speed(sprite_index) / game_get_speed(gamespeed_fps)) >= image_number){
 		instance_destroy();
 	}
 	

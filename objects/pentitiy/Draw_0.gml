@@ -1,6 +1,6 @@
 // if the entity has a shadow draw it
 if(entityShadow){
-	draw_sprite(sShadow, 0, floor(x), floor(y));
+	draw_sprite(sShadow, 0, floor(x), floor(y + ORIGIN_OFFSET));
 }
 
 if(flash != 0){

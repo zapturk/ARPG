@@ -7,7 +7,7 @@ function PlayerStateFree(){
 		speedWalk = 2.0;
 	}
 	
-	if(position_meeting(x, y + 7, oFall)){
+	if(position_meeting(x, y, oFall)){
 		state = PlayerStateFall;
 	}
 	

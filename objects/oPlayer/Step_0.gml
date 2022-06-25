@@ -21,6 +21,9 @@ else{
 
 if (!global.gamePaused) {
 	script_execute(state);
+	invonlnerable = max(invonlnerable - 1, 0);
+	flash = max(flash - 0.05, 0);
+	
 }
 
-//depth = -bbox_bottom;
+depth = -bbox_bottom;

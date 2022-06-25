@@ -3,7 +3,6 @@ function AttackSlash(){
 	if(sprite_index != spriteAttack){
 		sprite_index = spriteAttack;
 		localFrame = 0;
-		image_index = 0;
 		
 		//clear hit by attack list
 		if(!ds_exists(hitByAttack, ds_type_list)){
@@ -44,7 +43,7 @@ function CalcAttack(hitBox){
 				ds_list_add(hitByAttack, hitID);
 				with (hitID){
 					if(object_is_ancestor(object_index, pEnemy)){
-						HurtEnemy(id, 5, other.id, 10);
+						HurtEnemy(id, 1, other.id, 10);
 					}
 					else if(entityHitScript != -1){
 						script_execute(entityHitScript);
@@ -70,7 +69,7 @@ function HurtEnemy(enemey, damage, source, knockBack){
 			}
 			else{ 
 				if(state != ENEMYSTATE.HURT){
-					flash = 1;
+					flash = .5;
 					statePrevious = state;
 				}
 				state = ENEMYSTATE.HURT;

@@ -11,7 +11,7 @@ sprSpawn = sGreenSlimeIdle;
 sprMove = sGreenSlimeIdle;
 sprAttack = sGreenSlimeAttack;
 sprHurt = sGreenSlimeHurt;
-sprDie = sEnemieKill;
+sprDie = sEnemieKillGreen;
 
 enemyScript[ENEMYSTATE.WONDER] = SlimeWonder;
 enemyScript[ENEMYSTATE.CHASE] = SlimeChase;

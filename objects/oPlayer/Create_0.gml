@@ -15,6 +15,9 @@ distanceBonk = 25;
 distanceBonkHeight = 6;
 speedBonk = 1.5;
 z = 0;
+invonlnerable = 0;
+flash = 0;
+flashShader = shRedFlash;
 
 animationEndScript = -1;
 
@@ -35,4 +38,4 @@ if(global.targetX != -1){
 	direction = global.targetDirection;
 }
 
-depth = -1000;
+//depth = -1000;

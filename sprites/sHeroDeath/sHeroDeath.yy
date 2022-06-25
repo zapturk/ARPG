@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1cd93016-6acc-4e73-b087-d18c111fcd58","path":"sprites/sHeroDeath/sHeroDeath.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1cd93016-6acc-4e73-b087-d18c111fcd58","path":"sprites/sHeroDeath/sHeroDeath.yy",},"LayerId":{"name":"33ff91f9-3b47-4a91-8f7d-15651799e5ca","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHeroDeath","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","name":"1cd93016-6acc-4e73-b087-d18c111fcd58","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"d3ec22f3-06c1-4615-9247-c88f43202315","path":"sprites/sHeroDeath/sHeroDeath.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"d3ec22f3-06c1-4615-9247-c88f43202315","path":"sprites/sHeroDeath/sHeroDeath.yy",},"LayerId":{"name":"33ff91f9-3b47-4a91-8f7d-15651799e5ca","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sHeroDeath","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","name":"d3ec22f3-06c1-4615-9247-c88f43202315","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1cd93016-6acc-4e73-b087-d18c111fcd58","path":"sprites/sHeroDeath/sHeroDeath.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1cd93016-6acc-4e73-b087-d18c111fcd58","path":"sprites/sHeroDeath/sHeroDeath.yy",},"LayerId":{"name":"33ff91f9-3b47-4a91-8f7d-15651799e5ca","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHeroDeath","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","name":"1cd93016-6acc-4e73-b087-d18c111fcd58","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sHeroDeath","path":"sprites/sHeroDeath/sHeroDeath.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c2c8be6a-8a15-4bd1-8d23-a53457589da5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cd93016-6acc-4e73-b087-d18c111fcd58","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"abca0a05-a149-436b-a305-58600e312e16","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3ec22f3-06c1-4615-9247-c88f43202315","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"abca0a05-a149-436b-a305-58600e312e16","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3ec22f3-06c1-4615-9247-c88f43202315","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c2c8be6a-8a15-4bd1-8d23-a53457589da5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cd93016-6acc-4e73-b087-d18c111fcd58","path":"sprites/sHeroDeath/sHeroDeath.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

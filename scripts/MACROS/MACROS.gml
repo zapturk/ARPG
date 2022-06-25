@@ -11,6 +11,7 @@
 #macro IN 1
 
 #macro LIFT_OBJ_Z 13
+#macro ORIGIN_OFFSET 8
 
 enum ENEMYSTATE{
 	IDLE,
