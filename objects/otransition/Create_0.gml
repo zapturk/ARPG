@@ -13,3 +13,4 @@ height = RESOLUTION_H;
 heightHalf = (height * 0.5) + 25;
 percent = 0;
 leading = OUT;
+depth = -1000;

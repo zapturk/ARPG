@@ -10,7 +10,7 @@ if(instance_exists(oPlayer)) && (position_meeting(oPlayer.x, oPlayer.y, id)){
 			sprite_index = spriteIdle;
 			state = PlayerStateTransition;
 		}
-		RoomTransition(TRANS_TYPE.SLIDE, targetRoom);
+		RoomTransition(TRANS_TYPE.WIPE, targetRoom);
 		instance_destroy();
 	}
 }
