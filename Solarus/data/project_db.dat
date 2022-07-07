@@ -1,5 +1,8 @@
+map{ id = "Overworld", description = "The Overworld" }
 map{ id = "first_map", description = "First map" }
 
+tileset{ id = "Dungeons", description = "Dungeons" }
+tileset{ id = "OverworldLight" }
 tileset{ id = "castle", description = "Castle" }
 tileset{ id = "house", description = "House" }
 tileset{ id = "oceanset_inside", description = "Oceanset-Inside" }
@@ -342,6 +345,8 @@ file{ path = "items/sword.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/tunic.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "languages/en/text/strings.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "maps/Overworld.dat", author = "Zapturk", }
+file{ path = "maps/Overworld.lua", author = "Zapturk", }
 file{ path = "musics/eduardo", author = "Eduardo Dueñas", license = "CC BY-SA 4.0" }
 file{ path = "musics/eduardo/boss.ogg", author = "Eduardo Dueñas", license = "CC BY-SA 4.0" }
 file{ path = "musics/eduardo/cave.ogg", author = "Eduardo Dueñas", license = "CC BY-SA 4.0" }
@@ -830,6 +835,9 @@ file{ path = "sprites/teletransporters/teletransporter_blue.dat", author = "Diar
 file{ path = "sprites/teletransporters/teletransporter_green.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter_pink.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter_yellow.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/Dungeons.dat", author = "Sodacoma", }
+file{ path = "tilesets/Dungeons.entities.png", author = "Sodacoma", }
+file{ path = "tilesets/Dungeons.tiles.png", author = "Sodacoma", }
 file{ path = "tilesets/castle.dat", author = "Christopho, Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/castle.tiles.png", author = "Stephen Challener, Jetrel, Zane Kukta", license = "CC BY 4.0" }
 file{ path = "tilesets/house.dat", author = "Diarandor", license = "CC-BY-SA 4.0" }

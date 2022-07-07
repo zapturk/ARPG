@@ -89,20 +89,3 @@ tile{
   pattern = "20_20",
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 160,
-  y = 181,
-  direction = 1,
-}
-
-chest{
-  layer = 0,
-  x = 104,
-  y = 93,
-  treasure_name = "gem",
-  treasure_variant = 2,
-  sprite = "chests/chest_green",
-}
-
