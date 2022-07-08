@@ -762,9 +762,9 @@ file{ path = "sprites/hud", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/dialog_box.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/dialog_box_message_end.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/dialog_icons.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/empty_heart.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/heart.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/hearts.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hud/empty_heart.dat", author = "Zapturk", }
+file{ path = "sprites/hud/heart.dat", author = "Zapturk", }
+file{ path = "sprites/hud/hearts.png", author = "Zapturk", }
 file{ path = "sprites/hud/icon_action.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/icon_action.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/icon_attack.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
@@ -836,7 +836,6 @@ file{ path = "sprites/teletransporters/teletransporter_green.dat", author = "Dia
 file{ path = "sprites/teletransporters/teletransporter_pink.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter_yellow.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/Dungeons.dat", author = "Sodacoma", }
-file{ path = "tilesets/Dungeons.entities.png", author = "Sodacoma", }
 file{ path = "tilesets/Dungeons.tiles.png", author = "Sodacoma", }
 file{ path = "tilesets/castle.dat", author = "Christopho, Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/castle.tiles.png", author = "Stephen Challener, Jetrel, Zane Kukta", license = "CC BY 4.0" }
