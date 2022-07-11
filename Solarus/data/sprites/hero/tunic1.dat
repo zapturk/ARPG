@@ -318,37 +318,38 @@ animation{
 }
 animation{
   name = "swimming_fast",
-  src_image = "hero/eldran_swimming.png",
+  src_image = "hero/Sprites.png",
   frame_delay = 200,
+  frame_to_loop_on = 0,
   directions = {
-    { x = 240, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 3 },
-    { x = 240, y = 40, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 3 },
-    { x = 240, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 3 },
-    { x = 240, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 3 },
+    { x = 320, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 288, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 352, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 256, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{
   name = "swimming_slow",
-  src_image = "hero/eldran_swimming.png",
+  src_image = "hero/Sprites.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 80, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 4 },
-    { x = 80, y = 40, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 4 },
-    { x = 80, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 4 },
-    { x = 80, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 4 },
+    { x = 320, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 288, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 352, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 256, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{
   name = "swimming_stopped",
-  src_image = "hero/eldran_swimming.png",
-  frame_delay = 500,
+  src_image = "hero/Sprites.png",
+  frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 2 },
-    { x = 0, y = 40, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 2 },
-    { x = 0, y = 80, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 2 },
-    { x = 0, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 27, num_frames = 2 },
+    { x = 320, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 288, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 352, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 256, y = 240, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -364,24 +365,24 @@ animation{
 }
 animation{
   name = "sword_loading_stopped",
-  src_image = "hero/eldran_sword_loading.png",
+  src_image = "hero/Sprites.png",
   directions = {
-    { x = 192, y = 48, frame_width = 40, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 272, y = 48, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37 },
-    { x = 232, y = 48, frame_width = 40, frame_height = 24, origin_x = 28, origin_y = 21 },
-    { x = 296, y = 48, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 21 },
+    { x = 320, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 288, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 368, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 256, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "sword_loading_walking",
-  src_image = "hero/eldran_sword_loading.png",
-  frame_delay = 70,
+  src_image = "hero/Sprites.png",
+  frame_delay = 120,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 40, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 8 },
-    { x = 0, y = 48, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 37, num_frames = 8 },
-    { x = 0, y = 24, frame_width = 40, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 8 },
-    { x = 0, y = 88, frame_width = 24, frame_height = 40, origin_x = 12, origin_y = 21, num_frames = 8 },
+    { x = 320, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 288, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 352, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 256, y = 160, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{

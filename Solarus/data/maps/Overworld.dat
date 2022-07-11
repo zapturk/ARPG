@@ -1028,3 +1028,11 @@ destination{
   direction = 3,
 }
 
+enemy{
+  layer = 0,
+  x = 312,
+  y = 205,
+  direction = 0,
+  breed = "slime_green",
+}
+

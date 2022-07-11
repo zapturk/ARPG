@@ -842,8 +842,12 @@ file{ path = "sprites/teletransporters/teletransporter_blue.dat", author = "Diar
 file{ path = "sprites/teletransporters/teletransporter_green.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter_pink.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter_yellow.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/Dungeons.dat", author = "Sodacoma", }
-file{ path = "tilesets/Dungeons.tiles.png", author = "Sodacoma", }
+file{ path = "tilesets/Dungeons.dat", author = "Sodacoma", license = "All rights reserved" }
+file{ path = "tilesets/Dungeons.tiles.png", author = "Sodacoma", license = "All rights reserved" }
+file{ path = "tilesets/OverworldDark.tiles.png", author = "Sodacoma", license = "All rights reserved" }
+file{ path = "tilesets/OverworldLight.dat", author = "Sodacoma", license = "All rights reserved" }
+file{ path = "tilesets/OverworldLight.tiles.png", author = "Sodacoma", license = "All rights reserved" }
+file{ path = "tilesets/OverworldWoods.tiles.png", author = "Sodacoma", license = "All rights reserved" }
 file{ path = "tilesets/castle.dat", author = "Christopho, Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/castle.tiles.png", author = "Stephen Challener, Jetrel, Zane Kukta", license = "CC BY 4.0" }
 file{ path = "tilesets/house.dat", author = "Diarandor", license = "CC-BY-SA 4.0" }

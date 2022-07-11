@@ -1,41 +1,41 @@
 animation{
   name = "walking",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 300,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{
   name = "break",
-  src_image = "enemies/slime_green.png",
-  frame_delay = 200,
+  src_image = "hero/Sprites.png",
+  frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 32, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 32, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 32, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 32, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 80, y = 400, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 80, y = 400, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 80, y = 400, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 80, y = 400, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
   },
 }
 animation{
   name = "finish_jump",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 150,
   directions = {
-    { x = 144, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 144, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 144, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 144, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{
   name = "hidden",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   directions = {
     { x = 168, y = 128, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 13 },
     { x = 168, y = 128, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 13 },
@@ -45,13 +45,13 @@ animation{
 }
 animation{
   name = "hide",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 150,
   directions = {
-    { x = 112, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 112, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 112, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 112, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 48, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
 animation{
@@ -68,46 +68,46 @@ animation{
 }
 animation{
   name = "jump",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   directions = {
-    { x = 208, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 208, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 208, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 208, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "prepare_jump",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 150,
   directions = {
-    { x = 96, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 96, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 96, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
-    { x = 96, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
 animation{
   name = "stopped",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{
   name = "unhide",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 150,
   directions = {
-    { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
-    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 7 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
 animation{

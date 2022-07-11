@@ -7,7 +7,7 @@ local state -- States: "stopped", "egg", "going_hero", "hidden", "hiding", "unhi
 local speed = 20
 local detection_distance = 100
 local jump_duration = 1000 -- Time in milliseconds.
-local max_height = 24 -- Height for the jump, in pixels.
+local max_height = 8 -- Height for the jump, in pixels.
 local jumping_speed = 60 -- Speed of the movement during the jump.
 local needs_put_egg = false -- Do not put eggs by default.
 local split_when_hurt = nil -- Split in smaller slimes when hurt. Values: true, false, nil (random).
