@@ -1757,7 +1757,7 @@ tile_pattern{
 
 tile_pattern{
   id = "258",
-  ground = "deep_water",
+  ground = "shallow_water",
   default_layer = 0,
   x = { 544, 544, 544, 544 },
   y = { 0, 16, 32, 48 },
@@ -1769,7 +1769,7 @@ tile_pattern{
 
 tile_pattern{
   id = "259",
-  ground = "deep_water",
+  ground = "wall",
   default_layer = 0,
   x = { 560, 560, 560, 560 },
   y = { 0, 16, 32, 48 },

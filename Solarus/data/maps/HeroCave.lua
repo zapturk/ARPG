@@ -1,4 +1,4 @@
--- Lua script of map Overworld.
+-- Lua script of map HeroCave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -15,7 +15,6 @@ function map:on_started()
 
   -- You can initialize the movement and sprites of various
   -- map entities here.
-  hero:set_walking_speed(50)
 end
 
 -- Event called after the opening transition effect of the map,

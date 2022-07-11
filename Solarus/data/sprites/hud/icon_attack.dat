@@ -18,7 +18,7 @@ animation{
   src_image = "hud/icon_attack.png",
   frame_delay = 20,
   directions = {
-    { x = 24, y = 0, frame_width = 24, frame_height = 24, origin_x = 0, origin_y = 0, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 0, origin_y = 0, num_frames = 6 },
   },
 }
 animation{
