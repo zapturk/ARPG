@@ -807,9 +807,9 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 312,
-  y = 189,
-  treasure_name = "gem",
+  x = 376,
+  y = 229,
+  treasure_name = "heart",
   treasure_variant = 5,
   sprite = "destructibles/SolidGrass",
   can_be_cut = true,
@@ -1026,13 +1026,5 @@ destination{
   x = 88,
   y = 205,
   direction = 3,
-}
-
-enemy{
-  layer = 0,
-  x = 312,
-  y = 205,
-  direction = 0,
-  breed = "slime_green",
 }
 
