@@ -354,13 +354,13 @@ animation{
 }
 animation{
   name = "sword",
-  src_image = "hero/eldran_sword_brandish.png",
-  frame_delay = 30,
+  src_image = "hero/HeroAttack.png",
+  frame_delay = 60,
   directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 12, origin_y = 29, num_frames = 10 },
-    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 20, origin_y = 37, num_frames = 10 },
-    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 36, origin_y = 29, num_frames = 10 },
-    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 20, origin_y = 29, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 192, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 384, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 576, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
   },
 }
 animation{
