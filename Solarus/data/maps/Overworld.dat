@@ -2,7 +2,7 @@ properties{
   x = 0,
   y = 0,
   width = 512,
-  height = 288,
+  height = 272,
   min_layer = 0,
   max_layer = 2,
   tileset = "OverworldLight",
@@ -13,7 +13,7 @@ tile{
   x = 0,
   y = 256,
   width = 512,
-  height = 32,
+  height = 16,
   pattern = "259",
 }
 
@@ -776,7 +776,7 @@ tile{
 separator{
   layer = 0,
   x = 248,
-  y = 0,
+  y = -16,
   width = 16,
   height = 288,
 }

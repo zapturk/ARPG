@@ -11,19 +11,25 @@
 -- of the screen, respectively.
 
 local hud_config = {
+  -- background
+  {
+    menu_script = "scripts/hud/background",
+    x = 0,
+    y = 0,
+   }, 
 
   -- Hearts meter.
   {
     menu_script = "scripts/hud/hearts",
-    x = -89,
-    y = 8,
+    x = -81,
+    y = 0,
   },
 
   -- Money counter.
   {
     menu_script = "scripts/hud/money",
-    x = 8,
-    y = -20,
+    x = 78,
+    y = 0,
   },
 
   -- Pause icon.

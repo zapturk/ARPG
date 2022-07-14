@@ -317,7 +317,13 @@ enemy{ id = "slimy_green", description = "Slimy Green" }
 language{ id = "en", description = "English" }
 
 font{ id = "8_bit", description = "8 bit" }
+font{ id = "8_bit OOS" }
 font{ id = "enter_command", description = "Enter Command" }
+font{ id = "minecraftia" }
+font{ id = "oracle" }
+font{ id = "oracle_black" }
+font{ id = "oracle_blue" }
+font{ id = "oracle_like" }
 
 shader{ id = "grayscale", description = "grayscale" }
 shader{ id = "hq2x", description = "hq2x" }
