@@ -1,14 +1,8 @@
 map{ id = "HeroCave" }
 map{ id = "Overworld", description = "The Overworld" }
-map{ id = "first_map", description = "First map" }
 
 tileset{ id = "Dungeons", description = "Dungeons" }
 tileset{ id = "OverworldLight" }
-tileset{ id = "castle", description = "Castle" }
-tileset{ id = "house", description = "House" }
-tileset{ id = "oceanset_inside", description = "Oceanset-Inside" }
-tileset{ id = "oceanset_outside", description = "Oceanset-Outside" }
-tileset{ id = "outside", description = "Light Overworld" }
 
 sprite{ id = "animals/bird_red", description = "Red Bird" }
 sprite{ id = "animals/butterfly_blue", description = "Butterfly blue" }
@@ -854,13 +848,3 @@ file{ path = "tilesets/OverworldDark.tiles.png", author = "Sodacoma", license = 
 file{ path = "tilesets/OverworldLight.dat", author = "Sodacoma", license = "All rights reserved" }
 file{ path = "tilesets/OverworldLight.tiles.png", author = "Sodacoma", license = "All rights reserved" }
 file{ path = "tilesets/OverworldWoods.tiles.png", author = "Sodacoma", license = "All rights reserved" }
-file{ path = "tilesets/castle.dat", author = "Christopho, Zane Kukta", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/castle.tiles.png", author = "Stephen Challener, Jetrel, Zane Kukta", license = "CC BY 4.0" }
-file{ path = "tilesets/house.dat", author = "Diarandor", license = "CC-BY-SA 4.0" }
-file{ path = "tilesets/house.tiles.png", author = "Diarandor", license = "CC-BY-SA 4.0" }
-file{ path = "tilesets/oceanset_inside.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/oceanset_inside.tiles.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/oceanset_outside.dat", author = "Max Mraz", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/oceanset_outside.tiles.png", author = "Max Mraz", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/outside.dat", author = "Diarandor, Max Mraz", license = "CC-BY-SA 4.0" }
-file{ path = "tilesets/outside.tiles.png", author = "Diarandor, Max Mraz", license = "CC-BY-SA 4.0" }

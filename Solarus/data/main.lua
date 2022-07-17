@@ -1,6 +1,12 @@
 -- Main Lua script of the quest.
 -- See the Lua API! http://www.solarus-games.org/doc/latest
 
+GAME_W = 160
+GAME_H = 144
+CAMERA_W = 160
+CAMERA_H = 128
+
+
 require("scripts/features")
 require("scripts/multi_events")
 
