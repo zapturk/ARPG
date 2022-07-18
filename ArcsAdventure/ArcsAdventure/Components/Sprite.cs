@@ -34,7 +34,12 @@ namespace ArcsAdventure.Components
 
         public override void Update(double gameTime)
         {
-            
+           
+        }
+
+        internal void Move(float x, float y)
+        {
+            position = new Vector2(position.X + x, position.Y + y);
         }
     }
 }

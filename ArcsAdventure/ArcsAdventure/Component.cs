@@ -29,6 +29,13 @@ namespace ArcsAdventure
             baseObject.RemoveComponet(this);
         }
 
+        // finds a componet given its type
+        public TComponentType GetComponent<TComponentType>(ComponentType componentType) where TComponentType : Component
+        {
+            return baseObject.GetComponent<TComponentType>(componentType);
+        }
+
+
         // update method
         public abstract void Update(double gameTime);
 
