@@ -31,6 +31,13 @@ animation{
   },
 }
 animation{
+  name = "small_key",
+  src_image = "hero/Sprites.png",
+  directions = {
+    { x = 32, y = 384, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13 },
+  },
+}
+animation{
   name = "sword",
   src_image = "items/sword.png",
   directions = {

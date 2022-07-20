@@ -3,6 +3,8 @@ using ArcsAdventure.Manager;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGame.Aseprite.Documents;
+using MonoGame.Aseprite.Graphics;
 
 namespace ArcsAdventure
 {
@@ -40,10 +42,13 @@ namespace ArcsAdventure
             spriteBatch = new SpriteBatch(GraphicsDevice);
             renderTarget = new RenderTarget2D(GraphicsDevice, vpWidth, vpHeight);
 
-            player.AddComponet(new Sprite(Content.Load<Texture2D>("Arc"), 16, 16, new Vector2(50, 50)));
-            player.AddComponet(new PlayerInput());
+            //  Load the AsepriteDocument
+            AsepriteDocument aseDoc = Content.Load<AsepriteDocument>("ArcWalking");
 
-            
+
+            //player.AddComponet(new Sprite(Content.Load<AsepriteDocument>("ArcWalking"), 16, 16, new Vector2(50, 50)));
+            player.AddComponet(new PlayerInput());
+            //player.AddComponet(new Animation(16, 16));
         }
 
         protected override void Update(GameTime gameTime)

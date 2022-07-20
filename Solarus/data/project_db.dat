@@ -286,6 +286,7 @@ sound{ id = "wrong3", description = "wrong3" }
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
 item{ id = "heart", description = "Heart" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
+item{ id = "small_key", description = "Small Key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
 
@@ -344,6 +345,7 @@ file{ path = "fonts/enter_command.ttf", author = "Jeti", license = "CC BY 4.0" }
 file{ path = "items/gem.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/money_bag.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/small_key.lua", author = "Zapturk", }
 file{ path = "items/sword.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/tunic.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "languages/en/text/strings.dat", author = "Christopho", license = "CC BY-SA 4.0" }
