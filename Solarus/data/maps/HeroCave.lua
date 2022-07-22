@@ -27,7 +27,3 @@ end
 function map:on_opening_transition_finished()
 
 end
-
---function block_1:on_moved()
--- door_1:open()
---end

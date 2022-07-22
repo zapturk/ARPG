@@ -29,7 +29,7 @@ local hud_config = {
   {
     menu_script = "scripts/hud/money",
     x = 78,
-    y = 0,
+    y = 1,
   },
 
   -- Item assigned to slot 1.
@@ -50,13 +50,13 @@ local hud_config = {
 
 
   -- Action icon.
-  {
-    menu_script = "scripts/hud/action_icon",
-    x = 53,
-    y = 48,
-    dialog_x = 30,
-    dialog_y = 42,
-  },
+  -- {
+  --   menu_script = "scripts/hud/action_icon",
+  --   x = 53,
+  --   y = 48,
+  --   dialog_x = 30,
+  --   dialog_y = 42,
+  -- },
 }
 
 return hud_config

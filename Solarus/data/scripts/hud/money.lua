@@ -29,7 +29,7 @@ function rupees_builder:new(game, config)
     end
 
     rupee_icon_img:draw(dst_surface,x, y)
-    digits_text:draw(dst_surface, x,y + 8 )
+    digits_text:draw(dst_surface, x,y + 9 )
   end
 
   -- Checks whether the view displays correct information
