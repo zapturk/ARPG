@@ -16,7 +16,7 @@ function initial_game:initialize_new_savegame(game)
   -- and the starting location.
   game:set_starting_location("HeroCave", nil)  -- Starting location.
 
-  game:set_max_life(80)
+  game:set_max_life(40)
   game:set_life(game:get_max_life())
   game:set_max_money(100)  
   game:set_ability("lift", 1)

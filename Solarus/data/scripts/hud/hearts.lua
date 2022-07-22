@@ -78,7 +78,7 @@ function hearts_builder:new(game, config)
 
     -- Display the hearts.
     for i = 0, hearts.nb_max_hearts_displayed - 1 do
-      local x, y = (i % 10) * 8, math.floor(i / 10) * 8
+      local x, y = (i % 5) * 8, math.floor(i / 5) * 8
       hearts.empty_heart_sprite:draw(hearts.surface, x, y)
       if i < math.floor(hearts.nb_current_hearts_displayed / 4) then
         -- This heart is full.

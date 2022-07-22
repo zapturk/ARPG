@@ -21,7 +21,7 @@ local hud_config = {
   -- Hearts meter.
   {
     menu_script = "scripts/hud/hearts",
-    x = -81,
+    x = -42,
     y = 0,
   },
 
@@ -32,37 +32,22 @@ local hud_config = {
     y = 0,
   },
 
-  -- Pause icon.
+  -- Item assigned to slot 1.
   {
-    menu_script = "scripts/hud/pause_icon",
-    x = 23,
-    y = 6,
-  },
-
-  -- Item icon for slot 1.
-  {
-    menu_script = "scripts/hud/item_icon",
-    x = 8,
-    y = 26,
+    menu_script = "scripts/hud/item",
+    x = 6,
+    y = 1,
     slot = 1,  -- Item slot (1 or 2).
   },
 
-  -- Item icon for slot 2.
+  -- Item assgned to slot 2
   {
-    menu_script = "scripts/hud/item_icon",
-    x = 68,
-    y = 26,
-    slot = 2,  -- Item slot (1 or 2).
+    menu_script = "scripts/hud/item",
+    x = 32,
+    y = 1,
+    slot = 2
   },
 
-  -- Attack icon.
-  {
-    menu_script = "scripts/hud/attack_icon",
-    x = 38,
-    y = 26,
-    dialog_x = 15,
-    dialog_y = 20,
-  },
 
   -- Action icon.
   {
