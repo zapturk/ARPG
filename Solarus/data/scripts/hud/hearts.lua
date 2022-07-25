@@ -90,7 +90,7 @@ function hearts_builder:new(game, config)
     local i = math.floor(hearts.nb_current_hearts_displayed / 4)
     local remaining_fraction = hearts.nb_current_hearts_displayed % 4
     if remaining_fraction ~= 0 then
-      local x, y = (i % 10) * 8, math.floor(i / 10) * 8
+      local x, y = (i % 5) * 8, math.floor(i / 5) * 8
       hearts.all_hearts_img:draw_region((remaining_fraction - 1) * 9, 0, 9, 8, hearts.surface, x, y)
     end
   end

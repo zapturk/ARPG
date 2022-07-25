@@ -5,6 +5,8 @@
 -- Features can be enabled to disabled independently by commenting
 -- or uncommenting lines below.
 
+require("scripts/equipment")
+require("scripts/dungeons")
 require("scripts/hud/hud")
 require("scripts/menus/dialog_box")
 

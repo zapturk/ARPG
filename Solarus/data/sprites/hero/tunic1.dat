@@ -121,13 +121,13 @@ animation{
 }
 animation{
   name = "falling",
-  src_image = "hero/eldran_jumping.png",
+  src_image = "hero/Sprites.png",
   frame_delay = 125,
   directions = {
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12, num_frames = 6 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12, num_frames = 6 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12, num_frames = 6 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 12, num_frames = 6 },
+    { x = 256, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 256, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 256, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 256, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
   },
 }
 animation{

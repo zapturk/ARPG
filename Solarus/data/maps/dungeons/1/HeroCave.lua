@@ -16,7 +16,9 @@ local door_manager = require("scripts/maps/door_manager")
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
+  hero:set_walking_speed(50)
   door_manager:open_when_block_moved(map, "block_1", "door_1")
+  door_manager:open_when_switch_activated(map, "switch_1", "door_2")
 
   -- You can initialize the movement and sprites of various
   -- map entities here.

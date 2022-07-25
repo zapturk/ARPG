@@ -5,6 +5,7 @@ properties{
   height = 384,
   min_layer = 0,
   max_layer = 1,
+  world = "dungeon_1",
   tileset = "Dungeons",
 }
 
@@ -355,7 +356,7 @@ tile{
   x = 248,
   y = 224,
   width = 16,
-  height = 16,
+  height = 8,
   pattern = "96",
 }
 
@@ -820,9 +821,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 80,
   y = 160,
-  width = 32,
+  width = 16,
   height = 16,
   pattern = "90",
 }
@@ -831,7 +832,7 @@ tile{
   layer = 0,
   x = 16,
   y = 144,
-  width = 32,
+  width = 48,
   height = 16,
   pattern = "90",
 }
@@ -840,7 +841,7 @@ tile{
   layer = 0,
   x = 32,
   y = 176,
-  width = 16,
+  width = 32,
   height = 16,
   pattern = "3",
 }
@@ -849,16 +850,16 @@ tile{
   layer = 0,
   x = 32,
   y = 192,
-  width = 16,
+  width = 32,
   height = 16,
   pattern = "4",
 }
 
 tile{
   layer = 0,
-  x = 48,
+  x = 64,
   y = 192,
-  width = 32,
+  width = 16,
   height = 16,
   pattern = "90",
 }
@@ -1511,6 +1512,42 @@ tile{
   pattern = "1",
 }
 
+tile{
+  layer = 0,
+  x = 96,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "143",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "142",
+}
+
 separator{
   layer = 0,
   x = 152,
@@ -1568,8 +1605,9 @@ door{
   y = 128,
   direction = 1,
   sprite = "doors/door_small_key",
-  opening_method = "interaction_if_item",
-  opening_condition = "small_key",
+  savegame_variable = "dungeon_1_door_small_key_1",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
 
@@ -1604,29 +1642,33 @@ pickable{
 }
 
 chest{
+  name = "chest_rupee_1",
   layer = 0,
   x = 400,
   y = 333,
   treasure_name = "gem",
   treasure_variant = 3,
+  treasure_savegame_variable = "hc_rupee_1",
   sprite = "entities/chest",
 }
 
 chest{
+  name = "chest_sword",
   layer = 0,
   x = 80,
   y = 29,
   treasure_name = "sword",
+  treasure_savegame_variable = "dungeon_1_sword",
   sprite = "chests/large_chest_brown",
 }
 
 switch{
-  name = "Switch_1",
+  name = "switch_1",
   layer = 0,
   x = 112,
   y = 160,
   subtype = "walkable",
-  sprite = "switches/switch_1",
+  sprite = "switches/switch_3",
   needs_block = false,
   inactivate_when_leaving = false,
 }

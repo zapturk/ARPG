@@ -28,11 +28,11 @@ function item:on_obtaining(variant, savegame_variable)
   local map = item:get_map()
   local hero = map:get_hero()
   -- Sound
-  if hero:get_state() == "treasure" then
-    audio_manager:play_sound("items/fanfare_item")
-  else
-    audio_manager:play_sound("items/get_item2")
-  end
+  --if hero:get_state() == "treasure" then
+  --  audio_manager:play_sound("items/fanfare_item")
+  --else
+  --  audio_manager:play_sound("items/get_item2")
+  --end
   -- Add key
   item:get_game():add_small_key()
 
