@@ -1,12 +1,12 @@
 quest{
   solarus_version = "1.6",
   write_dir = "87831649-a79f-4a9a-bbe3-20b06e506632",
-  title = "Arc's Quest",
+  title = "Arc's Adventure",
   short_description = "",
   long_description = [[
 ]],
   author = "Zapturk",
-  quest_version = "0.0.0.1",
+  quest_version = "0.0.0.2",
   release_date = "",
   website = "",
   normal_quest_size = "160x144",
