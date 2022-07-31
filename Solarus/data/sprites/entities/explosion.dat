@@ -1,9 +1,8 @@
 animation{
   name = "explosion",
-  src_image = "entities/explosion.png",
+  src_image = "hero/Sprites.png",
   frame_delay = 100,
   directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 24, num_frames = 9 },
+    { x = 0, y = 480, frame_width = 32, frame_height = 32, origin_x = 24, origin_y = 24, num_frames = 5 },
   },
 }
-

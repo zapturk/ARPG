@@ -12,7 +12,7 @@ function item:on_created()
 
   item:set_shadow("small")
   item:set_brandish_when_picked(false)
-  item:set_sound_when_picked(nil)
+  item:set_sound_when_picked("frost2")
   item:set_sound_when_brandished(nil)
 
 end
@@ -31,7 +31,7 @@ function item:on_obtaining(variant, savegame_variable)
   --if hero:get_state() == "treasure" then
   --  audio_manager:play_sound("items/fanfare_item")
   --else
-  --  audio_manager:play_sound("items/get_item2")
+  --  audio_manager:play_sound("frost2")
   --end
   -- Add key
   item:get_game():add_small_key()
