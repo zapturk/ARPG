@@ -1,0 +1,342 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 160,
+  height = 128,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "Dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 128,
+  height = 96,
+  pattern = "11",
+  tileset = "Dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 128,
+  height = 16,
+  pattern = "37",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 112,
+  width = 128,
+  height = 16,
+  pattern = "31",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "146",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "145",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "144",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "41",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "40",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 96,
+  pattern = "35",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 16,
+  width = 16,
+  height = 96,
+  pattern = "33",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 48,
+  height = 48,
+  pattern = "12",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "156",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "154",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "155",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 0,
+  width = 16,
+  height = 24,
+  pattern = "153",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "151",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "152",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 64,
+  width = 32,
+  height = 8,
+  pattern = "137",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 16,
+  width = 8,
+  height = 32,
+  pattern = "137",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 40,
+  width = 32,
+  height = 8,
+  pattern = "137",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 8,
+  height = 24,
+  pattern = "137",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "27",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "25",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "26",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "24",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "13",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 16,
+  width = 8,
+  height = 32,
+  pattern = "137",
+}
+
+teletransporter{
+  name = "toOverworld",
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 16,
+  height = 16,
+  destination_map = "Overworld",
+  destination = "fromPlayersHouse",
+}
+
+destination{
+  name = "fromOverworld",
+  layer = 0,
+  x = 80,
+  y = 109,
+  direction = 1,
+}
+
+destination{
+  name = "gameStart",
+  layer = 0,
+  x = 40,
+  y = 29,
+  direction = 3,
+}
+
+destructible{
+  layer = 0,
+  x = 120,
+  y = 29,
+  sprite = "destructibles/vase",
+}
+

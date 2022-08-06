@@ -2258,14 +2258,6 @@ tile{
   pattern = "80",
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 1384,
-  y = 1005,
-  direction = 1,
-}
-
 destructible{
   layer = 0,
   x = 1304,
@@ -2660,5 +2652,24 @@ destructible{
   weight = -1,
   can_be_cut = true,
   ground = "grass",
+}
+
+teletransporter{
+  name = "toPlayersHouse",
+  layer = 0,
+  x = 1376,
+  y = 976,
+  width = 16,
+  height = 16,
+  destination_map = "house/player_house/house",
+  destination = "fromOverworld",
+}
+
+destination{
+  name = "fromPlayersHouse",
+  layer = 0,
+  x = 1384,
+  y = 1005,
+  direction = 3,
 }
 

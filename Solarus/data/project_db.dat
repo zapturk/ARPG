@@ -1,5 +1,6 @@
 map{ id = "Overworld", description = "The Overworld" }
 map{ id = "dungeons/1/HeroCave" }
+map{ id = "house/player_house/house", description = "Players House" }
 
 tileset{ id = "Dungeons", description = "Dungeons" }
 tileset{ id = "OverworldLight" }
@@ -354,6 +355,8 @@ file{ path = "languages/en/text/strings.dat", author = "Christopho", license = "
 file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/Overworld.dat", author = "Zapturk", }
 file{ path = "maps/Overworld.lua", author = "Zapturk", }
+file{ path = "maps/house/player_house/house.dat", author = "Zapturk", }
+file{ path = "maps/house/player_house/house.lua", author = "Zapturk", }
 file{ path = "musics/eduardo", author = "Eduardo Dueñas", license = "CC BY-SA 4.0" }
 file{ path = "musics/eduardo/boss.ogg", author = "Eduardo Dueñas", license = "CC BY-SA 4.0" }
 file{ path = "musics/eduardo/cave.ogg", author = "Eduardo Dueñas", license = "CC BY-SA 4.0" }
