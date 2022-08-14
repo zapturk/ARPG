@@ -289,6 +289,7 @@ sound{ id = "wrong3", description = "wrong3" }
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
 item{ id = "heart", description = "Heart" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
+item{ id = "random" }
 item{ id = "small_key", description = "Small Key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
