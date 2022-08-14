@@ -2269,24 +2269,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1584,
-  y = 368,
-  width = 32,
-  height = 416,
-  pattern = "34",
-}
-
-tile{
-  layer = 0,
-  x = 1360,
-  y = 752,
-  width = 224,
-  height = 32,
-  pattern = "34",
-}
-
-tile{
-  layer = 0,
   x = 1424,
   y = 688,
   width = 16,
@@ -2346,15 +2328,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "333",
-}
-
-tile{
-  layer = 0,
-  x = 1552,
-  y = 544,
-  width = 32,
-  height = 64,
-  pattern = "34",
 }
 
 tile{
@@ -2566,7 +2539,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1128,
+  x = 1136,
   y = 400,
   width = 16,
   height = 352,
@@ -2575,10 +2548,10 @@ tile{
 
 tile{
   layer = 0,
-  x = 1112,
-  y = 416,
+  x = 1120,
+  y = 384,
   width = 16,
-  height = 352,
+  height = 384,
   pattern = "415",
 }
 
@@ -2621,16 +2594,16 @@ tile{
 tile{
   layer = 0,
   x = 1136,
-  y = 392,
-  width = 448,
+  y = 400,
+  width = 432,
   height = 16,
   pattern = "422",
 }
 
 tile{
   layer = 0,
-  x = 1128,
-  y = 392,
+  x = 1136,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "426",
@@ -2639,7 +2612,7 @@ tile{
 tile{
   layer = 0,
   x = 1256,
-  y = 392,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "425",
@@ -2648,7 +2621,7 @@ tile{
 tile{
   layer = 0,
   x = 1272,
-  y = 392,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "415",
@@ -2657,7 +2630,7 @@ tile{
 tile{
   layer = 0,
   x = 1288,
-  y = 392,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "426",
@@ -2666,7 +2639,7 @@ tile{
 tile{
   layer = 0,
   x = 1416,
-  y = 392,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "425",
@@ -2675,7 +2648,7 @@ tile{
 tile{
   layer = 0,
   x = 1448,
-  y = 392,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "426",
@@ -2684,46 +2657,10 @@ tile{
 tile{
   layer = 0,
   x = 1432,
-  y = 392,
+  y = 400,
   width = 16,
   height = 16,
   pattern = "415",
-}
-
-tile{
-  layer = 0,
-  x = 1136,
-  y = 368,
-  width = 448,
-  height = 32,
-  pattern = "34",
-}
-
-tile{
-  layer = 0,
-  x = 1312,
-  y = 384,
-  width = 96,
-  height = 32,
-  pattern = "34",
-}
-
-tile{
-  layer = 0,
-  x = 1328,
-  y = 400,
-  width = 64,
-  height = 32,
-  pattern = "34",
-}
-
-tile{
-  layer = 0,
-  x = 1344,
-  y = 416,
-  width = 32,
-  height = 32,
-  pattern = "50",
 }
 
 tile{
@@ -2755,16 +2692,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1520,
-  y = 544,
-  width = 32,
-  height = 32,
-  pattern = "34",
-}
-
-tile{
-  layer = 0,
-  x = 1128,
+  x = 1136,
   y = 752,
   width = 16,
   height = 16,
@@ -2953,8 +2881,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1320,
-  y = 440,
+  x = 1304,
+  y = 416,
   width = 16,
   height = 32,
   pattern = "226",
@@ -2962,17 +2890,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1384,
-  y = 440,
-  width = 16,
-  height = 32,
-  pattern = "226",
-}
-
-tile{
-  layer = 0,
-  x = 1352,
-  y = 464,
+  x = 1400,
+  y = 416,
   width = 16,
   height = 32,
   pattern = "226",
@@ -2981,7 +2900,16 @@ tile{
 tile{
   layer = 0,
   x = 1352,
-  y = 480,
+  y = 456,
+  width = 16,
+  height = 32,
+  pattern = "226",
+}
+
+tile{
+  layer = 0,
+  x = 1352,
+  y = 472,
   width = 16,
   height = 16,
   pattern = "432",
@@ -3044,19 +2972,271 @@ tile{
 tile{
   layer = 0,
   x = 1376,
-  y = 744,
-  width = 16,
+  y = 736,
+  width = 192,
   height = 16,
   pattern = "406",
 }
 
 tile{
   layer = 0,
-  x = 1520,
-  y = 448,
+  x = 1480,
+  y = 432,
   width = 16,
   height = 16,
   pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 384,
+  width = 464,
+  height = 16,
+  pattern = "415",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 368,
+  width = 448,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1344,
+  y = 400,
+  width = 32,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 1264,
+  y = 400,
+  width = 32,
+  height = 128,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1424,
+  y = 400,
+  width = 32,
+  height = 128,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1584,
+  y = 400,
+  width = 16,
+  height = 352,
+  pattern = "415",
+}
+
+tile{
+  layer = 0,
+  x = 1568,
+  y = 416,
+  width = 16,
+  height = 320,
+  pattern = "416",
+}
+
+tile{
+  layer = 0,
+  x = 1584,
+  y = 368,
+  width = 32,
+  height = 416,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1568,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "425",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 600,
+  width = 96,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1192,
+  y = 624,
+  width = 96,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1208,
+  y = 648,
+  width = 64,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1424,
+  y = 624,
+  width = 32,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1376,
+  y = 752,
+  width = 208,
+  height = 16,
+  pattern = "415",
+}
+
+tile{
+  layer = 0,
+  x = 1568,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "428",
+}
+
+tile{
+  layer = 0,
+  x = 1360,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "405",
+}
+
+tile{
+  layer = 0,
+  x = 1360,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "417",
+}
+
+tile{
+  layer = 0,
+  x = 1360,
+  y = 752,
+  width = 224,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 1312,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "224",
+}
+
+tile{
+  layer = 0,
+  x = 1568,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "428",
+}
+
+tile{
+  layer = 0,
+  x = 1568,
+  y = 568,
+  width = 16,
+  height = 16,
+  pattern = "415",
+}
+
+tile{
+  layer = 0,
+  x = 1568,
+  y = 584,
+  width = 16,
+  height = 16,
+  pattern = "425",
+}
+
+tile{
+  layer = 0,
+  x = 1536,
+  y = 584,
+  width = 32,
+  height = 16,
+  pattern = "422",
+}
+
+tile{
+  layer = 0,
+  x = 1520,
+  y = 568,
+  width = 16,
+  height = 16,
+  pattern = "416",
+}
+
+tile{
+  layer = 0,
+  x = 1520,
+  y = 584,
+  width = 16,
+  height = 16,
+  pattern = "417",
+}
+
+tile{
+  layer = 0,
+  x = 1520,
+  y = 552,
+  width = 16,
+  height = 16,
+  pattern = "405",
+}
+
+tile{
+  layer = 0,
+  x = 1536,
+  y = 552,
+  width = 32,
+  height = 16,
+  pattern = "406",
+}
+
+tile{
+  layer = 0,
+  x = 1536,
+  y = 568,
+  width = 32,
+  height = 16,
+  pattern = "415",
 }
 
 destructible{
@@ -3484,8 +3664,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 1304,
-  y = 685,
+  x = 1416,
+  y = 669,
   sprite = "destructibles/SolidGrass",
   can_be_cut = true,
 }
@@ -3533,7 +3713,7 @@ destructible{
 destructible{
   layer = 0,
   x = 1416,
-  y = 749,
+  y = 685,
   sprite = "destructibles/SolidGrass",
   can_be_cut = true,
 }
@@ -3560,8 +3740,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 1400,
-  y = 749,
+  x = 1304,
+  y = 701,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
@@ -3570,14 +3750,6 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 1512,
-  y = 445,
-  sprite = "destructibles/SolidGrass",
-  can_be_cut = true,
-}
-
-destructible{
-  layer = 0,
   x = 1544,
   y = 445,
   sprite = "destructibles/SolidGrass",
@@ -3586,8 +3758,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 1512,
-  y = 477,
+  x = 1488,
+  y = 493,
   sprite = "destructibles/SolidGrass",
   can_be_cut = true,
 }
@@ -3595,15 +3767,15 @@ destructible{
 destructible{
   layer = 0,
   x = 1544,
-  y = 477,
+  y = 493,
   sprite = "destructibles/SolidGrass",
   can_be_cut = true,
 }
 
 teletransporter{
   layer = 0,
-  x = 1520,
-  y = 448,
+  x = 1480,
+  y = 432,
   width = 16,
   height = 16,
   destination_map = "house/player_house/house",
@@ -3611,8 +3783,234 @@ teletransporter{
 
 destructible{
   layer = 0,
-  x = 1528,
-  y = 461,
+  x = 1400,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1304,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1400,
+  y = 669,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1384,
+  y = 733,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1384,
+  y = 669,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1384,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1384,
+  y = 717,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1384,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1320,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1224,
+  y = 573,
+  sprite = "destructibles/SolidGrass",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 1240,
+  y = 589,
+  sprite = "destructibles/SolidGrass",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 1472,
+  y = 429,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1472,
+  y = 445,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1488,
+  y = 429,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1560,
+  y = 429,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1544,
+  y = 429,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1560,
+  y = 445,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1472,
+  y = 509,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1472,
+  y = 493,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1488,
+  y = 509,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1560,
+  y = 509,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1560,
+  y = 493,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1544,
+  y = 509,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  layer = 0,
+  x = 1488,
+  y = 445,
   sprite = "destructibles/SolidGrass",
   can_be_cut = true,
 }
