@@ -20,6 +20,16 @@ animation{
   },
 }
 animation{
+  name = "hart_container",
+  src_image = "hero/Sprites.png",
+  directions = {
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "heart",
   src_image = "hero/Sprites.png",
   directions = {

@@ -1,4 +1,5 @@
 map{ id = "Overworld", description = "The Overworld" }
+map{ id = "cave/Hole_Cave_1" }
 map{ id = "dungeons/1/HeroCave" }
 map{ id = "house/player_house/house", description = "Players House" }
 
@@ -99,6 +100,7 @@ sprite{ id = "entities/items/small_key", description = "Small Key" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/star", description = "Star" }
+sprite{ id = "entities/tombstone", description = "Tombstone" }
 sprite{ id = "ground_effects/fall_on_hole", description = "Fall on hole" }
 sprite{ id = "ground_effects/lava_splash", description = "Lava splash" }
 sprite{ id = "ground_effects/leaves", description = "Leaves" }
@@ -287,6 +289,7 @@ sound{ id = "wrong2", description = "wrong2" }
 sound{ id = "wrong3", description = "wrong3" }
 
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
+item{ id = "hart_container" }
 item{ id = "heart", description = "Heart" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "random" }
