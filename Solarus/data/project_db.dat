@@ -1,6 +1,7 @@
 map{ id = "Overworld", description = "The Overworld" }
+map{ id = "cave/Hero_Cave" }
 map{ id = "cave/Hole_Cave_1" }
-map{ id = "dungeons/1/HeroCave" }
+map{ id = "dungeons/1/1f" }
 map{ id = "house/player_house/house", description = "Players House" }
 
 tileset{ id = "Dungeons", description = "Dungeons" }
@@ -32,6 +33,7 @@ sprite{ id = "chests/chest_purple", description = "Chest (purple)" }
 sprite{ id = "chests/chest_red", description = "Chest (red)" }
 sprite{ id = "chests/chest_yellow", description = "Chest (yellow)" }
 sprite{ id = "chests/large_chest_brown", description = "Large chest (brown)" }
+sprite{ id = "chests/large_chest_green", description = "Large chest (green)" }
 sprite{ id = "destructibles/SolidGrass" }
 sprite{ id = "destructibles/bush", description = "Bush" }
 sprite{ id = "destructibles/cabbagge_green", description = "Plant Green" }
@@ -297,6 +299,7 @@ item{ id = "small_key", description = "Small Key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
 
+enemy{ id = "bat", description = "Bat" }
 enemy{ id = "chameleon", description = "Chameleon" }
 enemy{ id = "explosion", description = "Explosion" }
 enemy{ id = "flame", description = "Flame" }
@@ -315,6 +318,7 @@ enemy{ id = "slime_red", description = "Slime (red)" }
 enemy{ id = "slime_yellow", description = "Slime (yellow)" }
 enemy{ id = "slimy_green", description = "Slimy Green" }
 
+entity{ id = "unstable_floor" }
 
 language{ id = "en", description = "English" }
 
@@ -330,6 +334,7 @@ font{ id = "oracle_like" }
 shader{ id = "grayscale", description = "grayscale" }
 shader{ id = "hq2x", description = "hq2x" }
 
+file{ path = "enemies/bat.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/chameleon.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/explosion.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/flame.lua", author = "Diarandor", license = "GPL v3" }

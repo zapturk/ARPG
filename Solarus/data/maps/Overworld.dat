@@ -4452,7 +4452,7 @@ teletransporter{
   y = 1184,
   width = 16,
   height = 16,
-  destination_map = "dungeons/1/HeroCave",
+  destination_map = "cave/Hero_Cave",
 }
 
 destination{
