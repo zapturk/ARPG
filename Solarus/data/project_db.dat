@@ -1,4 +1,5 @@
 map{ id = "Overworld", description = "The Overworld" }
+map{ id = "cave/Grave_Cave" }
 map{ id = "cave/Hero_Cave" }
 map{ id = "cave/Hole_Cave_1" }
 map{ id = "dungeons/1/1f" }

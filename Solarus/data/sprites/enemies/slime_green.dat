@@ -56,14 +56,14 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "enemies/slime_green.png",
+  src_image = "enemies/my_slime_green.png",
   frame_delay = 70,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
-    { x = 0, y = 128, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
 animation{

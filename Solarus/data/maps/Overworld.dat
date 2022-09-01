@@ -6263,3 +6263,21 @@ destructible{
   ground = "grass",
 }
 
+enemy{
+  layer = 0,
+  x = 1496,
+  y = 861,
+  direction = 0,
+  breed = "slime_green",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 1528,
+  y = 797,
+  direction = 0,
+  breed = "slime_green",
+  treasure_name = "random",
+}
+
