@@ -3,9 +3,9 @@ desiredX = oPlayer.x / RESOLUTION_W;
 desiredX -= frac(desiredX);
 desiredX *= RESOLUTION_W;
 
-desiredY = oPlayer.y / RESOLUTION_H;
+desiredY = oPlayer.y / (RESOLUTION_H - 16);
 desiredY -= frac(desiredY);
-desiredY *= RESOLUTION_H;
+desiredY *= (RESOLUTION_H - 16);
 
 dx = 0;
 dy = 0;

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 255,
+  "bbox_right": 7,
   "bbox_top": 0,
-  "bbox_bottom": 143,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 256,
-  "height": 144,
+  "width": 8,
+  "height": 8,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2d3a33af-f4d0-4870-a2d7-878b2f5cf852","path":"sprites/sGridSize/sGridSize.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2d3a33af-f4d0-4870-a2d7-878b2f5cf852","path":"sprites/sGridSize/sGridSize.yy",},"LayerId":{"name":"e060c2fe-16a2-4ec0-8c46-682e1c2824b1","path":"sprites/sGridSize/sGridSize.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGridSize","path":"sprites/sGridSize/sGridSize.yy",},"resourceVersion":"1.0","name":"2d3a33af-f4d0-4870-a2d7-878b2f5cf852","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34167f41-1ac0-457a-90df-92e142a970ac","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34167f41-1ac0-457a-90df-92e142a970ac","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},"LayerId":{"name":"bf7f9a9d-bca8-4a67-b55d-24278458b97a","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMoneyGUI","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},"resourceVersion":"1.0","name":"34167f41-1ac0-457a-90df-92e142a970ac","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGridSize","path":"sprites/sGridSize/sGridSize.yy",},
+    "spriteId": {"name":"sMoneyGUI","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5df56c04-3ce6-4e07-b94b-154308d07497","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2d3a33af-f4d0-4870-a2d7-878b2f5cf852","path":"sprites/sGridSize/sGridSize.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"ff8bd145-2dc8-42b3-bb1f-e6e72904b61b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34167f41-1ac0-457a-90df-92e142a970ac","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGridSize","path":"sprites/sGridSize/sGridSize.yy",},
+    "parent": {"name":"sMoneyGUI","path":"sprites/sMoneyGUI/sMoneyGUI.yy",},
     "resourceVersion": "1.4",
-    "name": "sGridSize",
+    "name": "sMoneyGUI",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e060c2fe-16a2-4ec0-8c46-682e1c2824b1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bf7f9a9d-bca8-4a67-b55d-24278458b97a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Tileset",
-    "path": "folders/Sprites/Tileset.yy",
+    "name": "GUI",
+    "path": "folders/Sprites/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGridSize",
+  "name": "sMoneyGUI",
   "tags": [],
   "resourceType": "GMSprite",
 }

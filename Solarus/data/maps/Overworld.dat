@@ -6265,8 +6265,8 @@ destructible{
 
 enemy{
   layer = 0,
-  x = 1496,
-  y = 861,
+  x = 1304,
+  y = 1101,
   direction = 0,
   breed = "slime_green",
   treasure_name = "random",
