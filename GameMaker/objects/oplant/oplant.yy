@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oPlant",
   "spriteId": {
     "name": "sPlant",
     "path": "sprites/sPlant/sPlant.yy",
@@ -25,24 +28,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"entityHitScript","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"EntityHitDestroy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityShadow","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityFragmentCount","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityFragment","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"oFragPlant","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityCollision","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityRespawns","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityToSpawn","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"oPlant","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityHitScript","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"EntityHitDestroy",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityShadow","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"False",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityFragmentCount","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityFragment","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"oFragPlant",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityCollision","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityRespawns","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityToSpawn","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"oPlant",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oPlant",
-  "tags": [],
-  "resourceType": "GMObject",
 }

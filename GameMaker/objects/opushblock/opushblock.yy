@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oPushBlock",
   "spriteId": {
     "name": "sPushBlock",
     "path": "sprites/sPushBlock/sPushBlock.yy",
@@ -27,15 +30,11 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"entityCollision","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityShadow","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityCollision","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityShadow","path":"objects/pEntitiy/pEntitiy.yy",},"objectId":{"name":"pEntitiy","path":"objects/pEntitiy/pEntitiy.yy",},"value":"False",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oPushBlock",
-  "tags": [],
-  "resourceType": "GMObject",
 }

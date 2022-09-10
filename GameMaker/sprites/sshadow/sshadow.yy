@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sShadow",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 4,
   "gridY": 4,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1012b296-bbff-4514-886f-54e21a18e91f","path":"sprites/sShadow/sShadow.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1012b296-bbff-4514-886f-54e21a18e91f","path":"sprites/sShadow/sShadow.yy",},"LayerId":{"name":"5a6e55ab-4227-43da-b630-1552441e0c2a","path":"sprites/sShadow/sShadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},"resourceVersion":"1.0","name":"1012b296-bbff-4514-886f-54e21a18e91f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1012b296-bbff-4514-886f-54e21a18e91f",},
   ],
   "sequence": {
-    "spriteId": {"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sShadow",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b70c18f4-75b2-425d-b2f1-f5d90541a14d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1012b296-bbff-4514-886f-54e21a18e91f","path":"sprites/sShadow/sShadow.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},
-    "resourceVersion": "1.4",
-    "name": "sShadow",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":30.0,"displayName":"default","resourceVersion":"1.0","name":"5a6e55ab-4227-43da-b630-1552441e0c2a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a6e55ab-4227-43da-b630-1552441e0c2a","visible":true,"isLocked":false,"blendMode":0,"opacity":30.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Heros",
     "path": "folders/Sprites/Heros.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sShadow",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

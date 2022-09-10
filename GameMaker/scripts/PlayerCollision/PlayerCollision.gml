@@ -87,7 +87,7 @@ function PlayerCollision(){
 	// Horizontal movement
 	x += hSpeed;
 	
-	//clear lsi between asix
+	//clear list between frames
 	ds_list_clear(entityList);
 	
 	// Vertical Tiles

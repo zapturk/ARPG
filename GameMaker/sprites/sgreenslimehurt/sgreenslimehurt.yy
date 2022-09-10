@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sGreenSlimeHurt",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"256a00bb-c507-4686-b72f-9d0f5971ce0a","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"256a00bb-c507-4686-b72f-9d0f5971ce0a","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},"LayerId":{"name":"749e3587-14ba-43a0-87d9-ddd9d439ad0e","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGreenSlimeHurt","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},"resourceVersion":"1.0","name":"256a00bb-c507-4686-b72f-9d0f5971ce0a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"256a00bb-c507-4686-b72f-9d0f5971ce0a",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGreenSlimeHurt","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sGreenSlimeHurt",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ea32e983-69c3-43c3-99aa-fc49c259ce8b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"256a00bb-c507-4686-b72f-9d0f5971ce0a","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGreenSlimeHurt","path":"sprites/sGreenSlimeHurt/sGreenSlimeHurt.yy",},
-    "resourceVersion": "1.4",
-    "name": "sGreenSlimeHurt",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"749e3587-14ba-43a0-87d9-ddd9d439ad0e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"749e3587-14ba-43a0-87d9-ddd9d439ad0e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Green",
     "path": "folders/Sprites/Enemies/Slime/Green.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sGreenSlimeHurt",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
