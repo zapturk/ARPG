@@ -37,5 +37,3 @@ if(global.targetX != -1){
 	y = global.targetY;
 	direction = global.targetDirection;
 }
-
-//depth = -1000;

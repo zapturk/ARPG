@@ -46,6 +46,11 @@ function PlayerCollision(){
 			}
 			hSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	else if(position_meeting(bbox_right + hSpeed, bbox_top, pEntitiy)){
@@ -57,6 +62,11 @@ function PlayerCollision(){
 			}
 			hSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	
@@ -70,6 +80,11 @@ function PlayerCollision(){
 			}
 			hSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	else if(position_meeting(bbox_left + hSpeed, bbox_top, pEntitiy)){
@@ -81,6 +96,11 @@ function PlayerCollision(){
 			}
 			hSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	
@@ -134,6 +154,11 @@ function PlayerCollision(){
 			}
 			vSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	else if(position_meeting(bbox_right, bbox_top + vSpeed, pEntitiy)){
@@ -145,6 +170,11 @@ function PlayerCollision(){
 			}
 			vSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	
@@ -158,6 +188,11 @@ function PlayerCollision(){
 			}
 			vSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	else if(position_meeting(bbox_left, bbox_bottom + vSpeed, pEntitiy)){
@@ -169,6 +204,10 @@ function PlayerCollision(){
 			}
 			vSpeed = 0;
 			collision = true;
+			
+			if(inst.entityPush){
+				script_execute(ScriptExecuteArray(inst.entityActivateScript, inst.entityActivateArgs));
+			}
 		}
 	}
 	

@@ -16,7 +16,7 @@ function PlayerStateFree(){
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 	
 
-	PlayerCollision();
+	var collision = PlayerCollision();
 	
 	// attack key logic
 	if(keyAttack){
@@ -29,7 +29,12 @@ function PlayerStateFree(){
 
 	if(inputMagnitude != 0) {
 		direction = inputDirection;
-		sprite_index = spriteWalk;
+		if(collision){
+			sprite_index = spritePush;
+		}
+		else{
+			sprite_index = spriteWalk;
+		}
 	}
 	else {
 		sprite_index = spriteIdle;
@@ -80,10 +85,6 @@ function PlayerStateFree(){
 			//throw something if held otherwise roll
 			if(global.iLifted != noone){
 				PlayerThrow();
-			}
-			else{
-				state = PlayerStateRoll;
-				moveDistanceremaining = distanceRoll;
 			}
 		}
 		else{ // otherwise, there is a somthing and it has a script activate

@@ -82,7 +82,7 @@
 1016,335,336,1060,1062,74,75,7,7,254,255,256,7,7,74,75,13,1060,1000,435,
 1060,999,999,1189,1062,12,13,7,192,383,68,256,7,7,12,13,75,1122,1124,7,
 1122,-3,1123,12,1124,74,75,7,316,317,317,318,7,7,74,75,],},"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"TilesMain","tilesetId":{"name":"tilTileset","path":"tilesets/tilTileset/tilTileset.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":20,"SerialiseHeight":16,"TileCompressedData":[
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"TilesMain","tilesetId":null,"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":20,"SerialiseHeight":16,"TileCompressedData":[
 13,25,26,25,26,25,11,10,9,10,9,10,9,10,-5,100,3,9,10,126,
 -3,158,21,127,25,26,25,26,25,26,25,26,74,16,17,17,18,25,26,189,
 477,54,54,191,-4,158,23,159,9,10,74,74,48,33,160,34,9,10,189,54,

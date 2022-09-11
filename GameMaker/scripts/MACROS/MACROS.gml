@@ -13,6 +13,11 @@
 #macro LIFT_OBJ_Z 13
 #macro ORIGIN_OFFSET 8
 
+#macro UP 90
+#macro RIGHT 0
+#macro DOWN 270
+#macro LEFT 180
+
 enum ENEMYSTATE{
 	IDLE,
 	WONDER,
