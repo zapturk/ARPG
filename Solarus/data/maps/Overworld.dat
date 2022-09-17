@@ -4445,6 +4445,15 @@ tile{
   pattern = "352",
 }
 
+tile{
+  layer = 0,
+  x = 1168,
+  y = 1072,
+  width = 16,
+  height = 16,
+  pattern = "2",
+}
+
 teletransporter{
   name = "toHeroCave",
   layer = 0,

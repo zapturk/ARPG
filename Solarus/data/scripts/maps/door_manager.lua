@@ -31,9 +31,19 @@ function door_manager:open_when_switch_activated(map, switch_prefix, door_prefix
       --audio_manager:play_sound("misc/secret1")
     end
   end
+
+  local function switch_on_inactivated(switch)
+    if switch.is_activated then
+      switch.is_activated = false
+      map:close_doors(door_prefix)
+      --audio_manager:play_sound("misc/secret1")
+    end
+  end 
+
   for switch in map:get_entities(switch_prefix) do
     switch.is_activated = false
     switch.on_activated = switch_on_activated
+    switch.on_inactivated = switch_on_inactivated
   end
 
 end

@@ -800,7 +800,7 @@ file{ path = "sprites/hud/icon_pause.dat", author = "Olivier Cléro", license = 
 file{ path = "sprites/hud/icon_pause.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/magic_bar.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hud/magic_bar.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hud/rupee_icon.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hud/rupee_icon.png", author = "Zapturk", }
 file{ path = "sprites/hud/small_key_icon.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/items", license = "CC BY-SA 4.0" }
 file{ path = "sprites/items/bomb.png", author = "Bertram", license = "CC BY-SA 4.0" }
