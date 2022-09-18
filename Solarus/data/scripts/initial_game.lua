@@ -17,7 +17,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_starting_location("house/player_house/house", "gameStart")  -- Starting location.
   -- game:set_starting_location("cave/Hero_Cave", "HeroCave")
 
-  game:set_max_life(12)
+  game:set_max_life(40)
   game:set_life(game:get_max_life())
   game:set_max_money(100)  
   game:set_ability("lift", 1)

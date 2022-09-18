@@ -52,7 +52,7 @@ local function initialize_equipment_features(game)
   function game:get_num_small_keys()
 
     if not game:are_small_keys_enabled() then
-      error("Small keys are not enabled in the current map", 2)
+      return false --error("Small keys are not enabled in the current map", 2)
     end
 
     local savegame_variable = game:get_small_keys_savegame_variable()

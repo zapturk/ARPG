@@ -12,6 +12,7 @@ function rupees_builder:new(game, config)
     font = "8_bit OOS",
     horizontal_alignment = "left",
     vertical_alignment = "top",
+    set_color = "0,0,0",
   })
   local money_displayed = game:get_money()
 
@@ -29,7 +30,7 @@ function rupees_builder:new(game, config)
     end
 
     rupee_icon_img:draw(dst_surface,x, y)
-    digits_text:draw(dst_surface, x,y + 9 )
+    digits_text:draw(dst_surface, x+10 ,y+1)
   end
 
   -- Checks whether the view displays correct information
@@ -63,6 +64,8 @@ function rupees_builder:new(game, config)
     -- Update the text if something has changed.
     if need_rebuild then
       digits_text:set_text(string.format("%03d", money_displayed))
+      digits_text:set_color({0,0,0})
+      digits_text:set_font_size(10)
 
       -- Show in green if the maximum is reached.
       if money_displayed == max_money then

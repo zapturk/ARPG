@@ -340,3 +340,73 @@ destructible{
   sprite = "destructibles/vase",
 }
 
+pickable{
+  layer = 0,
+  x = 24,
+  y = 85,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 80,
+  y = 61,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 40,
+  y = 85,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 56,
+  y = 85,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 72,
+  y = 85,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 96,
+  y = 61,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 112,
+  y = 61,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 128,
+  y = 61,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 29,
+  treasure_name = "gem",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 45,
+  treasure_name = "gem",
+}
+

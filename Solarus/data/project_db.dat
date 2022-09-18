@@ -325,6 +325,7 @@ language{ id = "en", description = "English" }
 
 font{ id = "8_bit", description = "8 bit" }
 font{ id = "8_bit OOS" }
+font{ id = "PixeloidMono" }
 font{ id = "enter_command", description = "Enter Command" }
 font{ id = "minecraftia" }
 font{ id = "oracle" }

@@ -27,9 +27,16 @@ local hud_config = {
 
   -- Money counter.
   {
+    menu_script = "scripts/hud/keys",
+    x = 85,
+    y = 0,
+  },
+
+  -- Money counter.
+  {
     menu_script = "scripts/hud/money",
-    x = 78,
-    y = 1,
+    x = 85,
+    y = 8,
   },
 
   -- Item assigned to slot 1.
@@ -48,15 +55,6 @@ local hud_config = {
     slot = 2
   },
 
-
-  -- Action icon.
-  -- {
-  --   menu_script = "scripts/hud/action_icon",
-  --   x = 53,
-  --   y = 48,
-  --   dialog_x = 30,
-  --   dialog_y = 42,
-  -- },
 }
 
 return hud_config

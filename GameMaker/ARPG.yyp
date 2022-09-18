@@ -187,10 +187,7 @@
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":24,},
     {"id":{"name":"sPlayerDie","path":"sprites/sPlayerDie/sPlayerDie.yy",},"order":12,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":0,},
-    {"id":{"name":"tRoomIndoor","path":"rooms/tRoomIndoor/tRoomIndoor.yy",},"order":1,},
-    {"id":{"name":"tRoomCity","path":"rooms/tRoomCity/tRoomCity.yy",},"order":3,},
     {"id":{"name":"Credits","path":"notes/Credits/Credits.yy",},"order":0,},
-    {"id":{"name":"tRoomIsland","path":"rooms/tRoomIsland/tRoomIsland.yy",},"order":5,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -207,9 +204,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
-    {"roomId":{"name":"tRoomIsland","path":"rooms/tRoomIsland/tRoomIsland.yy",},},
-    {"roomId":{"name":"tRoomIndoor","path":"rooms/tRoomIndoor/tRoomIndoor.yy",},},
-    {"roomId":{"name":"tRoomCity","path":"rooms/tRoomCity/tRoomCity.yy",},},
     {"roomId":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
     {"roomId":{"name":"rOverworldOld","path":"rooms/rOverworldOld/rOverworldOld.yy",},},
     {"roomId":{"name":"rTestCave","path":"rooms/rTestCave/rTestCave.yy",},},
@@ -225,7 +219,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Managers","folderPath":"folders/Objects/Managers.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":19,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TestRooms","folderPath":"folders/Rooms/TestRooms.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player Attack","folderPath":"folders/Scripts/Player Attack.yy","order":27,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player General","folderPath":"folders/Scripts/Player General.yy","order":21,},
