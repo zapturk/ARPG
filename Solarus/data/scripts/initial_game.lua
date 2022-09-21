@@ -24,6 +24,9 @@ function initial_game:initialize_new_savegame(game)
   -- game:set_ability("sword", 1)
   --game:set_ability("shield", 1)
   --game.HUD_height = 16
+
+  --Set world values
+  game:set_value("MapHasKey", false)
 end
 
 return initial_game

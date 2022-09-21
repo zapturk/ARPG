@@ -17,18 +17,19 @@ function keys_builder:new(game, config)
   local dst_x, dst_y = config.x, config.y
 
   function keys:on_draw(dst_surface)
-
     local x, y = dst_x, dst_y
     local width, height = dst_surface:get_size()
+
     if x < 0 then
       x = width + x
     end
     if y < 0 then
       y = height + y
     end
-
-    keys_icon_img:draw(dst_surface,x, y)
-    digits_text:draw(dst_surface, x+10 ,y+1)
+    if game:get_value("MapHasKey") then
+      keys_icon_img:draw(dst_surface, x, y)
+      digits_text:draw(dst_surface, x + 10, y + 1)
+    end
   end
 
   local function check()
@@ -51,11 +52,11 @@ function keys_builder:new(game, config)
     -- Update the text if something has changed.
     if need_rebuild then
       digits_text:set_text(string.format("%01d", keys_displayed))
-      digits_text:set_color({0,0,0})
+      digits_text:set_color({ 0, 0, 0 })
       digits_text:set_font_size(10)
     end
 
-    print(game:get_map().small_keys_savegame_variable)
+    return true
   end
 
   check()

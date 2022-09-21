@@ -13,7 +13,7 @@ local small_keys_savegame_variable = false
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
+  game:set_value("MapHasKey", false)
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end

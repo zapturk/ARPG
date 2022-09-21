@@ -16,12 +16,19 @@ local door_manager = require("scripts/maps/door_manager")
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
+  game:set_value("MapHasKey", true)
+  game:set_value("MapNumOfKeys", 1)
+
   hero:set_walking_speed(50)
   door_manager:open_when_switch_activated(map, "switch_2", "door_1")
   door_manager:open_when_switch_activated(map, "switch_1", "door_2")
 
   -- You can initialize the movement and sprites of various
   -- map entities here.
+end
+
+function Get_Key_Count()
+  --print(game)
 end
 
 -- Event called after the opening transition effect of the map,

@@ -25,7 +25,7 @@ local hud_config = {
     y = 0,
   },
 
-  -- Money counter.
+  -- Key counter.
   {
     menu_script = "scripts/hud/keys",
     x = 85,
