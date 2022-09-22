@@ -18,6 +18,7 @@ local initial_menus = {}
 function sol.main:on_started()
 
   sol.main.load_settings()
+  sol.input.set_joypad_enabled()
   math.randomseed(os.time())
 
   -- Show the initial menus.

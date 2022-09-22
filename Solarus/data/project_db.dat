@@ -333,8 +333,12 @@ font{ id = "oracle_black" }
 font{ id = "oracle_blue" }
 font{ id = "oracle_like" }
 
+shader{ id = "chroma", description = "chroma" }
 shader{ id = "grayscale", description = "grayscale" }
 shader{ id = "hq2x", description = "hq2x" }
+shader{ id = "obscurity", description = "obscurity" }
+shader{ id = "poisoned_effect", description = "poisoned_effect" }
+shader{ id = "shockwave", description = "shockwave" }
 
 file{ path = "enemies/bat.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/chameleon.lua", author = "Diarandor", license = "GPL v3" }
