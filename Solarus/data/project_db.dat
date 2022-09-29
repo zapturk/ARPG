@@ -73,6 +73,8 @@ sprite{ id = "enemies/goblin_green", description = "Goblin Green" }
 sprite{ id = "enemies/goblin_green_slingshot", description = "Goblin Slingshot" }
 sprite{ id = "enemies/ice_block", description = "Ice block" }
 sprite{ id = "enemies/iceball", description = "Iceball" }
+sprite{ id = "enemies/octorok" }
+sprite{ id = "enemies/projectiles/stone" }
 sprite{ id = "enemies/pterobat", description = "Pterobat" }
 sprite{ id = "enemies/shamablin_fire", description = "Goblin Shaman Fire" }
 sprite{ id = "enemies/skelfos", description = "Skelfos" }
@@ -97,6 +99,7 @@ sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/chest", description = "Chest (brown)" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
+sprite{ id = "entities/effects/impact_stone", description = "entities/effects/impact_stone" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/items/small_key", description = "Small Key" }
@@ -296,6 +299,7 @@ item{ id = "hart_container" }
 item{ id = "heart", description = "Heart" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "random" }
+item{ id = "shield" }
 item{ id = "small_key", description = "Small Key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
@@ -307,6 +311,8 @@ enemy{ id = "flame", description = "Flame" }
 enemy{ id = "generic_projectile", description = "Projectile" }
 enemy{ id = "goblin_green", description = "Goblin" }
 enemy{ id = "iceball", description = "Iceball" }
+enemy{ id = "octorok" }
+enemy{ id = "projectiles/stone" }
 enemy{ id = "pterobat", description = "Pterobat" }
 enemy{ id = "shamablin_fire", description = "Goblin Shaman Fire" }
 enemy{ id = "skelfos", description = "Skelfos" }
