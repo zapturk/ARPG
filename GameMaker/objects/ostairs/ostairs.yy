@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oStairs",
   "spriteId": {
     "name": "sStairsArea",
     "path": "sprites/sStairsArea/sStairsArea.yy",
@@ -28,8 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oStairs",
-  "tags": [],
-  "resourceType": "GMObject",
 }

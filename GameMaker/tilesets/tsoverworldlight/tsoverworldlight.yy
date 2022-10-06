@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tsOverworldLight",
   "spriteId": {
     "name": "sOverworldLight",
     "path": "sprites/sOverworldLight/sOverworldLight.yy",
@@ -20,7 +23,7 @@
   "tile_count": 1984,
   "autoTileSets": [],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"Flowers","frames":[
         68,
         68,
         69,
@@ -29,8 +32,8 @@
         70,
         71,
         71,
-      ],"resourceVersion":"1.0","name":"Flowers","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"DeepWater","frames":[
         30,
         30,
         92,
@@ -39,8 +42,8 @@
         154,
         216,
         216,
-      ],"resourceVersion":"1.0","name":"DeepWater","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"OceanOuter","frames":[
         35,
         35,
         97,
@@ -57,8 +60,8 @@
         97,
         35,
         35,
-      ],"resourceVersion":"1.0","name":"OceanOuter","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"OceanBeach","frames":[
         34,
         34,
         96,
@@ -75,8 +78,8 @@
         96,
         34,
         34,
-      ],"resourceVersion":"1.0","name":"OceanBeach","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"WaterFall","frames":[
         32,
         32,
         94,
@@ -85,8 +88,8 @@
         156,
         218,
         218,
-      ],"resourceVersion":"1.0","name":"WaterFall","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"WaterFallBase","frames":[
         33,
         33,
         95,
@@ -95,8 +98,8 @@
         157,
         219,
         219,
-      ],"resourceVersion":"1.0","name":"WaterFallBase","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"FarOcean","frames":[
         712,
         712,
         774,
@@ -113,8 +116,8 @@
         774,
         712,
         712,
-      ],"resourceVersion":"1.0","name":"FarOcean","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"ShallowWater","frames":[
         31,
         31,
         93,
@@ -131,7 +134,7 @@
         93,
         31,
         31,
-      ],"resourceVersion":"1.0","name":"ShallowWater","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 8.0,
   "tileAnimation": {
@@ -31892,8 +31895,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tsOverworldLight",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

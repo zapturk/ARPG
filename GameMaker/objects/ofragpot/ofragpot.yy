@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oFragPot",
   "spriteId": {
     "name": "sFragPot",
     "path": "sprites/sFragPot/sFragPot.yy",
@@ -25,20 +28,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"bounceCount","path":"objects/oFagment/oFagment.yy",},"objectId":{"name":"oFagment","path":"objects/oFagment/oFagment.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"deteriorateAfter","path":"objects/oFagment/oFagment.yy",},"objectId":{"name":"oFagment","path":"objects/oFagment/oFagment.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"deteriorateTime","path":"objects/oFagment/oFagment.yy",},"objectId":{"name":"oFagment","path":"objects/oFagment/oFagment.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bounceCount","path":"objects/oFagment/oFagment.yy",},"objectId":{"name":"oFagment","path":"objects/oFagment/oFagment.yy",},"value":"1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"deteriorateAfter","path":"objects/oFagment/oFagment.yy",},"objectId":{"name":"oFagment","path":"objects/oFagment/oFagment.yy",},"value":"20",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"deteriorateTime","path":"objects/oFagment/oFagment.yy",},"objectId":{"name":"oFagment","path":"objects/oFagment/oFagment.yy",},"value":"25",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oFragPot",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_Attack02",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "SFX_PixelPackTOPDOWN",
     "path": "folders/Sounds/SFX_PixelPackTOPDOWN.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_Attack02",
-  "tags": [],
-  "resourceType": "GMSound",
 }

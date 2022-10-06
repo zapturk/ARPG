@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_MusicADVENTURE",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "MUSIC_PixelPackTOPDOWN",
     "path": "folders/Sounds/MUSIC_PixelPackTOPDOWN.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_MusicADVENTURE",
-  "tags": [],
-  "resourceType": "GMSound",
 }
