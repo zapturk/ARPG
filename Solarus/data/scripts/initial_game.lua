@@ -14,8 +14,9 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("house/player_house/house", "gameStart")  -- Starting location.
+  -- game:set_starting_location("house/player_house/house", "gameStart")  -- Starting location.
   -- game:set_starting_location("cave/Hero_Cave", "HeroCave")
+  game:set_starting_location("Overworld", "dungeon_1_exit")
 
   game:set_max_life(40)
   game:set_life(game:get_max_life())

@@ -9,6 +9,8 @@ require("scripts/equipment")
 require("scripts/dungeons")
 require("scripts/hud/hud")
 require("scripts/menus/dialog_box")
+require("scripts/meta/camera")
+require("scripts/meta/enemy")
 
 require("scripts/meta/game")
 

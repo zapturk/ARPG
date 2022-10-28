@@ -340,12 +340,3 @@ destructible{
   sprite = "destructibles/vase",
 }
 
-enemy{
-  layer = 0,
-  x = 80,
-  y = 61,
-  direction = 0,
-  breed = "octorok",
-  treasure_name = "random",
-}
-

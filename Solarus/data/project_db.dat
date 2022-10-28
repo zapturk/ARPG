@@ -58,6 +58,7 @@ sprite{ id = "destructibles/stone_white", description = "Stone (white)" }
 sprite{ id = "destructibles/vase", description = "Vase" }
 sprite{ id = "doors/door_big_key", description = "Door (big key)" }
 sprite{ id = "doors/door_boss_key", description = "Door (boss key)" }
+sprite{ id = "doors/door_dungeon_1" }
 sprite{ id = "doors/door_normal", description = "Door (normal)" }
 sprite{ id = "doors/door_small_key", description = "Door (small key)" }
 sprite{ id = "doors/door_very_weak_wall", description = "Door (very weak wall)" }
@@ -353,6 +354,7 @@ file{ path = "enemies/flame.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/generic_projectile.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/goblin_green.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/iceball.lua", author = "Diarandor", license = "GPL v3" }
+file{ path = "enemies/projectiles/stone.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/pterobat.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/shamablin_fire.lua", author = "Diarandor", license = "GPL v3" }
 file{ path = "enemies/skelfos.lua", author = "Diarandor", license = "GPL v3" }
@@ -414,6 +416,7 @@ file{ path = "scripts/menus/dialog_box.lua", author = "Christopho", license = "G
 file{ path = "scripts/menus/initial_menus_config.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/start_game.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/meta/enemy.lua", author = "Benjamin Schweitzer", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "scripts/text_fx_helper.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "shaders/grayscale.dat", author = "Christopho", license = "GPL v3" }

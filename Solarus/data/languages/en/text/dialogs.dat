@@ -1,0 +1,7 @@
+dialog{
+  id = "test",
+  text = [[
+Test Text
+]],
+}
+
