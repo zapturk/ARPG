@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tsOverworldDark",
   "spriteId": {
     "name": "sOverworldDark",
     "path": "sprites/sOverworldDark/sOverworldDark.yy",
@@ -20,7 +23,7 @@
   "tile_count": 1984,
   "autoTileSets": [],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_1","frames":[
         30,
         30,
         92,
@@ -37,8 +40,8 @@
         92,
         30,
         30,
-      ],"resourceVersion":"1.0","name":"animation_1","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_2","frames":[
         93,
         93,
         155,
@@ -55,26 +58,26 @@
         155,
         93,
         93,
-      ],"resourceVersion":"1.0","name":"animation_2","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_3","frames":[
         32,
         94,
         156,
         218,
-      ],"resourceVersion":"1.0","name":"animation_3","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_4","frames":[
         33,
         95,
         157,
         219,
-      ],"resourceVersion":"1.0","name":"animation_4","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_5","frames":[
         282,
         344,
         406,
         468,
-      ],"resourceVersion":"1.0","name":"animation_5","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_6","frames":[
         279,
         279,
         341,
@@ -83,7 +86,7 @@
         403,
         465,
         465,
-      ],"resourceVersion":"1.0","name":"animation_6","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 8.0,
   "tileAnimation": {
@@ -31844,8 +31847,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tsOverworldDark",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }
