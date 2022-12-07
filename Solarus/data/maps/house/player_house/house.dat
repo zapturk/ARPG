@@ -335,8 +335,9 @@ destination{
 
 destructible{
   layer = 0,
-  x = 120,
+  x = 136,
   y = 29,
+  treasure_name = "random",
   sprite = "destructibles/vase",
 }
 

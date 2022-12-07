@@ -2,7 +2,7 @@ animation{
   name = "stopped",
   src_image = "destructibles/vase.png",
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 9 },
   },
 }
 animation{
@@ -17,7 +17,7 @@ animation{
   name = "on_ground",
   src_image = "destructibles/vase.png",
   directions = {
-    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 9 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

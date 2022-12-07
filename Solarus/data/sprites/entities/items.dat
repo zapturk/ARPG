@@ -20,16 +20,6 @@ animation{
   },
 }
 animation{
-  name = "hart_container",
-  src_image = "hero/Sprites.png",
-  directions = {
-    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "heart",
   src_image = "hero/Sprites.png",
   directions = {
@@ -38,6 +28,16 @@ animation{
     { x = 104, y = 368, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
     { x = 104, y = 368, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
     { x = 104, y = 368, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "heart_container",
+  src_image = "hero/Sprites.png",
+  directions = {
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 368, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

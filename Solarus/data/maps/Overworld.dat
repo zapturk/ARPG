@@ -4617,6 +4617,7 @@ destructible{
   y = 1117,
   treasure_name = "random",
   sprite = "destructibles/SolidGrass",
+  weight = 1,
   can_be_cut = true,
 }
 
@@ -5471,6 +5472,7 @@ destructible{
   y = 1133,
   treasure_name = "random",
   sprite = "destructibles/SolidGrass",
+  weight = 1,
   can_be_cut = true,
 }
 
@@ -5480,6 +5482,7 @@ destructible{
   y = 1133,
   treasure_name = "random",
   sprite = "destructibles/SolidGrass",
+  weight = 1,
   can_be_cut = true,
 }
 
@@ -5850,9 +5853,10 @@ block{
 }
 
 block{
+  name = "block_tumbstone",
   layer = 0,
   x = 1176,
-  y = 1085,
+  y = 1101,
   direction = 1,
   sprite = "entities/tombstone",
   pushable = true,

@@ -296,8 +296,8 @@ sound{ id = "wrong2", description = "wrong2" }
 sound{ id = "wrong3", description = "wrong3" }
 
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
-item{ id = "hart_container" }
 item{ id = "heart", description = "Heart" }
+item{ id = "heart_container" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "random" }
 item{ id = "shield" }

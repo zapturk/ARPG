@@ -364,7 +364,7 @@ pickable{
   layer = 0,
   x = 80,
   y = 77,
-  treasure_name = "hart_container",
+  treasure_name = "heart_container",
   treasure_savegame_variable = "Hart_container_1",
 }
 

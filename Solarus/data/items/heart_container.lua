@@ -22,12 +22,12 @@ function item:on_obtained(variant, savegame_variable)
   local x_hero,y_hero, layer_hero = hero:get_position()
   hero:freeze()
   hero:set_animation("brandish")
-  audio_manager:play_sound("heart_container")
+  -- audio_manager:play_sound("heart_container")
   local heart_container_entity = map:create_custom_entity({
     name = "brandish_sword",
     sprite = "entities/items",
     x = x_hero,
-    y = y_hero - 24,
+    y = y_hero - 16,
     width = 16,
     height = 16,
     layer = layer_hero,
